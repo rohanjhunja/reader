@@ -1,29 +1,51 @@
 <!DOCTYPE html> 
-<html style="width:100%; height:100%; overflow: hidden;"> 
+<html> 
+
+<head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="/manifest.json">
+</head>
+
 <style type="text/css">
-	video::cue {
-    	/*position:0%; align:start;*/
-   }
+
+*,html,body{
+  padding: none;
+    margin:none;
+    text-decoration: none;
+}
+
+html{
+   width:100%; 
+   height:100%; 
+   overflow: hidden;
+}
+
+#vidSize{
+  
+}
+
+#tex{
+  width:100%; 
+  background-color: white; 
+  padding:5px; 
+  font-size: 30px; 
+  line-height: 1.5; 
+  margin: 0 auto;
+}
+
 </style>
+
 <body > 
-<div style="background-color: black;">
-<div style="width:100%; margin: 0 auto; ">
-<!-- <video width=100% autoplay id="vid">
-  <source src="Flying.mp4" type="video/mp4">
-  	<track kind="subtitles" src="captions.vtt" label="English Reader">
-  Your browser does not support HTML5 video.
-</video> -->
-<!-- <iframe id ="vid" width=100% src="https://www.youtube.com/embed/6iCJ7FlkaB8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe> -->
+<div id="vidBack" style="background-color: blue; width:100%;">
+<div id ="vidSize">
+
 <div id="vid"></div>
 </div>
 </div>
-<!-- <a href="posters/Mo00001.jpg" download> file_name </a>
-<object type="text/html" data="menu.html">
-</object> -->
 
-<div id="tex"style="width:100%; background-color: white; padding:5px; font-size: 30px; line-height: 1.5; margin: 0 auto;"></div>
+<div id="tex"style=""></div>
 <div id="next" style="position: absolute; bottom:0; left:0; right:0; background-color: black; color: white; text-align: center; font-size: 30px; padding:10px;">Done</div>
 </body> 
 </html>
@@ -42,13 +64,30 @@ var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/player_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  //toggleFullScreen();
 
   // Replace the 'ytplayer' element with an <iframe> and
   // YouTube player after the API code downloads.
+
+//   function toggleFullScreen() {
+//   var doc = window.document;
+//   var docEl = doc.documentElement;
+
+//   var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+//   var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+//   if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+//     requestFullScreen.call(docEl);
+//   }
+//   else {
+//     cancelFullScreen.call(doc);
+//   }
+// }
+
   function onYouTubePlayerAPIReady() {
     player = new YT.Player('vid', {
       width: '100%',
-      height: '40%',
+      height: '100%',
       videoId: '6iCJ7FlkaB8',
       playerVars: { 'controls': 0, },
       "events": {
