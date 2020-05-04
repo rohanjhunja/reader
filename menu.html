@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html style="width:100%; height:100%; overflow: hidden;"> 
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+  body{
+    font-family: 'Vesper Libre', serif;
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #e6e6e6;
+  }
+
+  #header{
+  	width:100%;
+  	height: 30px;
+  	background-color: red;
+  	color: white;
+  	font-family: 'Alegreya', serif;
+  	font-size: 30px;
+  	text-align: center;
+  	line-height: 1;
+  	padding: 10px 0;
+  }
+
+  #levelBar{
+  	width:100%;
+  	background-color: #f2f2f2;
+  	color: white;
+  	font-size: 20px;
+  	text-align: center;
+  	padding: 6px 0;
+  }
+  .levelButton{
+  	width:20%;
+  	margin: 0 5px;
+  	display:inline-block;
+  	border-radius: 20px;
+  	background-color: white;
+  	color: black;
+  	line-height: 1;
+  	padding: 8px 0;
+  }
+
+  .select{
+  	background-color: yellow;
+  	color: black;
+  }
+
+  #storyList{
+  	margin: 1rem;
+  	width: auto;
+  	height:540px;
+  	overflow-y: scroll;
+  }
+
+  #storyList > div{
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: 150px;
+  	grid-gap: 1rem;
+  	margin-bottom:70px;
+  }
+
+  .listButton{
+  	width:100%;
+  	height:150px;
+  	display: inline-block;
+  	border-radius: 10px;
+  	background-color: white;
+  	overflow: hidden;
+  }
+
+  .listButton > div{
+  	height:50%;
+  	width:100%;
+  	overflow: hidden;
+  }
+
+   .listButton img{
+   	width:100%;
+   	object-fit: cover;
+   }
+
+   .listButton > div> div{
+   	display: inline-block;
+
+   }
+
+   .levelText{
+   	width:30%;
+   	font-size: 50px;
+   	text-align: center;
+   	margin-top: 15px;
+   	line-height: 0.8;
+   }
+
+   .listText{
+   	width: 65%;
+   	vertical-align: top;
+   	margin-top: 15px;
+   	font-size: 18px;
+   	line-height: 1.2;
+   	
+   }
+
+  </style>
+<body > 
+	<div id="header">WordMatch!</div>
+	<div id="levelBar"><div id="all" class="select levelButton" onclick="loadStory(this.id)" >All</div><div id="1" class="levelButton" onclick="loadStory(this.id)">1</div><div id="2" class="levelButton" onclick="loadStory(this.id)">2</div><div id="3" class="levelButton" onclick="loadStory(this.id)">3</div></div></div>
+
+	<div id="storyList"> <div id="list">
+		
+	</div>
+
+	</div>
+	</div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+	
+var data = '[{"level": 1, "name": "At the Zoo", "image": "zoo", "video": "", "words": ""}, {"level": 1, "name": "The Wind and the Sun", "image": "wind", "video": "", "words": ""}, {"level": 2, "name": "The Lion King", "image": "lion", "video": "", "words": ""}, {"level": 2, "name": "Farida Plans a Feast", "image": "feast", "video": "", "words": ""}, {"level": 3, "name": "Flying Lesson", "image": "flying", "video": "", "words": ""}, {"level": 3, "name": "National Team", "image": "national", "video": "", "words": ""} ]';
+
+someData = JSON.parse(data);
+var temp = 'all';
+loadStory('all');
+
+
+function loadStory(lvl){
+
+	document.getElementById("list").innerHTML="";
+	document.getElementById(temp).className="levelButton";
+	document.getElementById(lvl).className="select levelButton";
+	temp = lvl;
+
+for(c in someData){
+
+	let name = someData[c].name;
+	let image = someData[c].image;
+	let level = someData[c].level;
+
+	if(lvl==level || lvl=='all')
+	document.getElementById("list").innerHTML+= "<div id=\"story"+c+"\" class=\"listButton\" onclick=\"openStory()\"> <div><img src="+image+".png \"></div> <div><div class=\"levelText\">"+level+"</div><div class=\"listText\">"+name+"</div></div></div>";
+		
+		}
+	}
+
+function openStory(story){
+	window.location = 'testImage.html';
+}
+
+
+</script>
