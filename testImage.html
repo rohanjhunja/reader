@@ -31,6 +31,14 @@ body{
     padding: 10px 0;
   }
 
+  #headerC{
+    width:100%;
+    height: 30px;
+    background-color: red; font-family: 'Alegreya', serif; color: white; text-align: center; font-size: 30px;
+    line-height: 1.3;
+    padding: 10px 0;
+  }
+
   #help{
     background-color: #2929a3;
     color: white;
@@ -52,12 +60,20 @@ body{
     z-index: 4;  position:absolute; top:50px; bottom:0; left:0; right:0; 
   }
 
+  #listC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    grid-gap: 1rem;
+    margin: 1rem 1rem 100px 1rem;
+  }
+
   #list{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px;
     grid-gap: 1rem;
-    margin: 1rem;
+    margin: 1rem 1rem 100px 1rem;
   }
 
   .listButton{
@@ -70,6 +86,21 @@ body{
     font-size: 20px;
     text-align: center;
     line-height: 2;
+  }
+
+  .wordButton{
+    display: inline-block;
+    width: auto;
+    height:40px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    overflow: hidden;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    margin: 10px auto;
+    padding: 0 20px;
   }
 
   #videoFrame{
@@ -87,6 +118,7 @@ body{
 
    .text{
     font-size: 30px; line-height: 1.5;
+    text-align: center;
    }
 
    .name{
@@ -95,15 +127,21 @@ body{
 .target{
   /*color:lightyellow;*/
   background-color: lightyellow;
-  padding: 0 5px;
+  color:black;
 }
 
 .hide{
   display: none;
 }
 
+.hideText{
+
+}
+
 .icon{
-  height:80%; display: block; margin: 0 auto;
+  height:20px;
+  margin:10px 10px 20px 10px; 
+  display: inline-block;
 }
 
 
@@ -112,8 +150,9 @@ body{
 <body>
 
   <div id="header">At the Zoo</div>
+  <div id="headerC" class="hide">WordMatch!</div>
   
-  <div id="targetList"><div id="help" onclick="hide(this.id)"><img src="close.png" style="width:20px; height:20px; position: absolute; top:10px; right:10px">Open 8 boxes to start WordMatch!</div><div  id="list"></div></div>
+  <div id="targetList"><div id="help" onclick="hide(this.id)"><img src="close.png" style="width:20px; height:20px; position: absolute; top:10px; right:10px">Open 3 boxes to start WordMatch!</div><div  id="list"></div></div>
 
 
   <!-- <div id="list" class="text" style="z-index: 4;  position:absolute; top:50px; bottom:0; left:0; right:0; background-color: black; padding-top: 20px;"></div> -->
@@ -130,23 +169,29 @@ body{
 </video>
 <div id="blank" style="background-color: #e6e6e6; z-index: 1; position: absolute; bottom:0; height:100%;  width:100%; display: none;"></div>
 </div>
+
+ <div id="challenge" class="hide">
+  <div id="answerList" class="hide"><div id="questionC"class="text">Pick the matching word!</div><div id="listC"></div></div>
 </div>
-<div id="wordList" class="text hide" style="width: 100%; display:block; text-align:center;"><div id="word" class="text target hide"></div><div id="translate"></div></div>
-<div id="tex" class="text hide" style="width:100%; background-color: white; padding:5px; margin: 10x auto;"></div>
+ 
+<div id="learn">  
+<div id="replay" class= "hide" style="text-align: center;" onclick="replay()"><div id="word" class="wordButton target"></div><img class="icon"  src="replay.png" ></div>
+<div id="question" class= "hide" style="text-align: center; vertical-align:middle;" onclick="reveal()"><div id="translate" class="wordButton"></div><img class="icon" src="question.png" ></div>
 
-
-<!-- <div style=" height: 50px; position: absolute; bottom: 100px; left:0; right:0;" onclick="replay()"><img src="replay.png" style="height:80%; display: block; margin: 0 auto;"></div>
- -->
- <div style="height: 50px; position: absolute; bottom: 100px; left:0; right:0;" onclick="replay()"><img id="replay" class= "hide" src="replay.png" ><img id="question" class="icon" src="question.png" ></div>
+<div id="tex" class="hide" style="width:100%; background-color: white; padding:5px 10px; margin: 10x auto;"></div>
+</div>
+ 
 
  <div id="next" style="position: absolute; bottom:0; left:0; right:0; background-color: #000066; color: white; text-align: center; font-size: 30px; padding:10px;">Word List</div>
+
+ <div id="startMatch" class="hide" style="position: absolute; bottom:20px; left:80px; right:80px; height:60px; background-color: darkred; font-family: 'Alegreya', serif; color: white; text-align: center; font-size: 30px;  z-index: 4; border-radius: 30px; overflow: hidden;" onclick="matchControl(0)";><div id="startText" class="hide" style="position: absolute; bottom:0; left:0; background-color: none; height:100%; width:100%; z-index:5; line-height: 2;">WordMatch!</div><div id="progress" style="position: absolute; bottom:0; left:0; background-color: red; height:100%; width:0%; z-index:4;"></div></div>
 
 </body> 
 
 </html>
 <script type="text/javascript">
   
-  var data1 = '[ {"word": "a", "target": "", "": "", "translation": "a", "start": 1, "end": "", "text": ""}, {"word": "by", "target": "", "": "p", "translation": "करून", "start": 2, "end": "", "text": ""}, {"word": "so", "target": "", "": "dv", "translation": "त्यामुळे", "start": 2, "end": "", "text": ""}, {"word": "at", "target": "", "": "p", "translation": "येथे", "start": 2, "end": "", "text": ""}, {"word": "no", "target": "", "": "", "translation": "नाही", "start": 2, "end": "", "text": ""}, {"word": "an", "target": "", "": "", "translation": "an", "start": 2, "end": "", "text": ""}, {"word": "to", "target": "", "": "", "translation": "to", "start": 2, "end": "", "text": ""}, {"word": "we", "target": "", "": "", "translation": "आम्ही", "start": 2, "end": "", "text": ""}, {"word": "go", "target": "", "": "v", "translation": "जाता जाता", "start": 2, "end": "", "text": ""}, {"word": "did", "target": "", "": "v", "translation": "केले", "start": 3, "end": "", "text": ""}, {"word": "you", "target": "", "": "", "translation": "आपण", "start": 3, "end": "", "text": ""}, {"word": "see", "target": "", "": "v", "translation": "पहा", "start": 3, "end": "", "text": ""}, {"word": "the", "target": "", "": "", "translation": "the", "start": 3, "end": "", "text": ""}, {"word": "its", "target": "", "": "", "translation": "त्याच्या", "start": 3, "end": "", "text": ""}, {"word": "way", "target": "", "": "n", "translation": "मार्ग", "start": 3, "end": "", "text": ""}, {"word": "and", "target": "", "": "", "translation": "and", "start": 3, "end": "", "text": ""}, {"word": "saw", "target": "", "": "v", "translation": "पाहिले", "start": 3, "end": "", "text": ""}, {"word": "said", "target": "", "": "v", "translation": "म्हणाला,", "start": 4, "end": "", "text": ""}, {"word": "like", "target": "", "": "p", "translation": "सारखे", "start": 4, "end": "", "text": ""}, {"word": "this", "target": "", "": "n", "translation": "this", "start": 4, "end": "", "text": ""}, {"word": "hear", "target": "", "": "v", "translation": "ऐका", "start": 4, "end": "", "text": ""}, {"word": "must", "target": "", "": "v", "translation": "हे केलेच पाहिजे", "start": 4, "end": "", "text": ""}, {"word": "have", "target": "", "": "v", "translation": "आहे", "start": 4, "end": "", "text": ""}, {"word": "seen", "target": "", "": "v", "translation": "पाहिले", "start": 4, "end": "", "text": ""}, {"word": "that", "target": "", "": "", "translation": "की", "start": 4, "end": "", "text": ""}, {"word": "with", "target": "", "": "", "translation": "सह", "start": 4, "end": "", "text": ""}, {"word": "neck", "target": "", "": "n", "translation": "मान", "start": 4, "end": "", "text": ""}, {"word": "from", "target": "", "": "p", "translation": "पासून", "start": 4, "end": "", "text": ""}, {"word": "tree", "target": "", "": "n", "translation": "झाड", "start": 4, "end": "", "text": ""}, {"word": "went", "target": "", "": "v", "translation": "गेला", "start": 4, "end": "", "text": ""}, {"word": "story", "target": "", "": "n", "translation": "कथा", "start": 5, "end": "", "text": ""}, {"word": "nayar", "target": "", "": "n", "translation": "नायर", "start": 5, "end": "", "text": ""}, {"word": "asked", "target": "", "": "v", "translation": "विचारले", "start": 5, "end": "", "text": ""}, {"word": "n…n…o", "target": "", "": "", "translation": "n ... n ... ओ", "start": 5, "end": "", "text": ""}, {"word": "today", "target": "", "": "n", "translation": "आज", "start": 5, "end": "", "text": ""}, {"word": "we’re", "target": "", "": "", "translation": "आम्ही आहोत", "start": 5, "end": "", "text": ""}, {"word": "going", "target": "", "": "v", "translation": "जाणे", "start": 5, "end": "", "text": ""}, {"word": "amma…", "target": "", "": "n", "translation": "अम्मा ...", "start": 5, "end": "", "text": ""}, {"word": "didn’t", "target": "", "": "v", "translation": "नाही", "start": 6, "end": "", "text": ""}, {"word": "leaves", "target": "", "": "n", "translation": "पाने", "start": 6, "end": "", "text": ""}, {"word": "ground", "target": "", "": "n", "translation": "जमिनीवर", "start": 6, "end": "", "text": ""}, {"word": "nandini", "target": "", "": "n", "translation": "नंदिनी", "start": 7, "end": "", "text": ""}, {"word": "nothing", "target": "", "": "n", "translation": "काहीही नाही", "start": 7, "end": "", "text": ""}, {"word": "meera’s", "target": "", "": "n", "translation": "मीरा च्या", "start": 7, "end": "", "text": ""}, {"word": "tomorrow", "target": "", "": "n", "translation": "उद्या", "start": 8, "end": "", "text": ""}, {"word": "the zoo", "target": 1, "": "n", "translation": "प्राणीसंग्रहालय", "start": "", "end": "", "text": "<span>See</span> <span>the</span> <span>animals</span> <span>at</span> <span>the</span> <span>zoo</span>."}, {"word": "the monkeys", "target": 1, "": "n", "translation": "माकडे", "start": 32, "end": 34, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>monkeys</span>."}, {"word": "jump", "target": 1, "": "v", "translation": "उडी", "start": 27.5, "end": 29.5, "text": "<span>See</span> <span>Amma</span> <span>jump</span>."}, {"word": "lion", "target": 1, "": "n", "translation": "सिंह", "start": 49, "end": 51, "text": "<span>Meera</span> <span>hears</span> <span>a</span> <span>lion</span>."}, {"word": "roar", "target": 1, "": "v", "translation": "गर्जना", "start": 43, "end": 47, "text": "<span>Hear</span> <span>Amma</span> <span>roar</span>."}, {"word": "an elephant", "target": 1, "": "n", "translation": "एक हत्ती", "start": 65, "end": 68, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>elephant</span>."}, {"word": "swaying", "target": 1, "": "v", "translation": "डोलत होती", "start": 60, "end": 63, "text": "<span>Amma</span> <span>sways</span> <span>her</span> <span>hand</span> <span>like</span> <span>an</span> <span>elephant</span>."}, {"word": "trunk", "target": 1, "": "n", "translation": "ट्रंक", "start": 65, "end": 68, "text": "<span>An</span> <span>elephant</span> <span>has</span> <span>a</span> <span>long</span> <span>trunk</span>."}, {"word": "a giraffe", "target": 1, "": "n", "translation": "एक जिराफ", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span>."}, {"word": "long", "target": 1, "": "dj", "translation": "लांब", "start": 78, "end": "", "text": "<span>A</span> <span>giraffe</span> <span>has</span> <span>a</span> <span>long</span> <span>neck</span>."}, {"word": "eating", "target": 1, "": "v", "translation": "खाणे", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span> <span>eating</span> <span>leaves</span>."}, {"word": "tall", "target": 1, "": "dj", "translation": "उंच", "start": "", "end": "", "text": "<span>The</span> <span>giraffe</span> <span>eats</span> <span>leaves</span> <span>from</span> <span>a</span> <span>tall</span> <span>tree</span>."}, {"word": "a peacock", "target": 1, "": "n", "translation": "एक मोर", "start": 95, "end": 97, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>peacock</span>."}, {"word": "dancing", "target": 1, "": "v", "translation": "नृत्य", "start": 89, "end": 92, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>are</span> <span>dancing</span>."}, {"word": "a crocodile", "target": 1, "": "n", "translation": "एक मगर", "start": 109, "end": 112, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>crocodile</span>."}, {"word": "yawning", "target": 1, "": "v", "translation": "जांभई", "start": 105, "end": 107, "text": "<span>Amma</span> <span>is</span> <span>yawning</span>."}, {"word": "animals", "target": "", "": "n", "translation": "प्राणी", "start": "", "end": "", "text": ""}, {"word": "flopped", "target": 1, "": "v", "translation": "फ्लॉप", "start": 130, "end": 133, "text": "<span>Amma</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span>."}, {"word": "a bear", "target": 1, "": "n", "translation": "एक अस्वल", "start": 134, "end": 136, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span> <span>like</span> <span>a</span> <span>bear</span>."}, {"word": "amma", "target": 2, "": "n", "translation": "अम्मा", "start": "", "end": "", "text": ""}, {"word": "meera", "target": 2, "": "n", "translation": "मीरा", "start": "", "end": "", "text": ""}, {"word": "what", "target": "", "": "", "translation": "काय", "start": 4, "end": "", "text": ""} ]';
+  var data1 = '[ {"word": "a", "target": "", "": "", "translation": "a", "start": 1, "end": "", "text": ""}, {"word": "by", "target": "", "": "p", "translation": "करून", "start": 2, "end": "", "text": ""}, {"word": "so", "target": "", "": "dv", "translation": "त्यामुळे", "start": 2, "end": "", "text": ""}, {"word": "at", "target": "", "": "p", "translation": "येथे", "start": 2, "end": "", "text": ""}, {"word": "no", "target": "", "": "", "translation": "नाही", "start": 2, "end": "", "text": ""}, {"word": "an", "target": "", "": "", "translation": "an", "start": 2, "end": "", "text": ""}, {"word": "to", "target": "", "": "", "translation": "to", "start": 2, "end": "", "text": ""}, {"word": "we", "target": "", "": "", "translation": "आम्ही", "start": 2, "end": "", "text": ""}, {"word": "go", "target": "", "": "v", "translation": "जाता जाता", "start": 2, "end": "", "text": ""}, {"word": "did", "target": "", "": "v", "translation": "केले", "start": 3, "end": "", "text": ""}, {"word": "you", "target": "", "": "", "translation": "आपण", "start": 3, "end": "", "text": ""}, {"word": "see", "target": "", "": "v", "translation": "पहा", "start": 3, "end": "", "text": ""}, {"word": "the", "target": "", "": "", "translation": "the", "start": 3, "end": "", "text": ""}, {"word": "its", "target": "", "": "", "translation": "त्याच्या", "start": 3, "end": "", "text": ""}, {"word": "way", "target": "", "": "n", "translation": "मार्ग", "start": 3, "end": "", "text": ""}, {"word": "and", "target": "", "": "", "translation": "and", "start": 3, "end": "", "text": ""}, {"word": "saw", "target": "", "": "v", "translation": "पाहिले", "start": 3, "end": "", "text": ""}, {"word": "said", "target": "", "": "v", "translation": "म्हणाला,", "start": 4, "end": "", "text": ""}, {"word": "like", "target": "", "": "p", "translation": "सारखे", "start": 4, "end": "", "text": ""}, {"word": "this", "target": "", "": "n", "translation": "this", "start": 4, "end": "", "text": ""}, {"word": "hear", "target": "", "": "v", "translation": "ऐका", "start": 4, "end": "", "text": ""}, {"word": "must", "target": "", "": "v", "translation": "हे केलेच पाहिजे", "start": 4, "end": "", "text": ""}, {"word": "have", "target": "", "": "v", "translation": "आहे", "start": 4, "end": "", "text": ""}, {"word": "seen", "target": "", "": "v", "translation": "पाहिले", "start": 4, "end": "", "text": ""}, {"word": "that", "target": "", "": "", "translation": "की", "start": 4, "end": "", "text": ""}, {"word": "with", "target": "", "": "", "translation": "सह", "start": 4, "end": "", "text": ""}, {"word": "neck", "target": "", "": "n", "translation": "मान", "start": 4, "end": "", "text": ""}, {"word": "from", "target": "", "": "p", "translation": "पासून", "start": 4, "end": "", "text": ""}, {"word": "tree", "target": "", "": "n", "translation": "झाड", "start": 4, "end": "", "text": ""}, {"word": "went", "target": "", "": "v", "translation": "गेला", "start": 4, "end": "", "text": ""}, {"word": "story", "target": "", "": "n", "translation": "कथा", "start": 5, "end": "", "text": ""}, {"word": "nayar", "target": "", "": "n", "translation": "नायर", "start": 5, "end": "", "text": ""}, {"word": "asked", "target": "", "": "v", "translation": "विचारले", "start": 5, "end": "", "text": ""}, {"word": "n…n…o", "target": "", "": "", "translation": "n ... n ... ओ", "start": 5, "end": "", "text": ""}, {"word": "today", "target": "", "": "n", "translation": "आज", "start": 5, "end": "", "text": ""}, {"word": "we’re", "target": "", "": "", "translation": "आम्ही आहोत", "start": 5, "end": "", "text": ""}, {"word": "going", "target": "", "": "v", "translation": "जाणे", "start": 5, "end": "", "text": ""}, {"word": "amma…", "target": "", "": "n", "translation": "अम्मा ...", "start": 5, "end": "", "text": ""}, {"word": "didn’t", "target": "", "": "v", "translation": "नाही", "start": 6, "end": "", "text": ""}, {"word": "leaves", "target": "", "": "n", "translation": "पाने", "start": 6, "end": "", "text": ""}, {"word": "ground", "target": "", "": "n", "translation": "जमिनीवर", "start": 6, "end": "", "text": ""}, {"word": "nandini", "target": "", "": "n", "translation": "नंदिनी", "start": 7, "end": "", "text": ""}, {"word": "nothing", "target": "", "": "n", "translation": "काहीही नाही", "start": 7, "end": "", "text": ""}, {"word": "meera", "target": 2, "": "n", "translation": "मीरा", "start": "", "end": "", "text": ""}, {"word": "meera’s", "target": "", "": "n", "translation": "मीरा च्या", "start": 7, "end": "", "text": ""}, {"word": "tomorrow", "target": "", "": "n", "translation": "उद्या", "start": 8, "end": "", "text": ""}, {"word": "the zoo", "target": 1, "": "n", "translation": "प्राणीसंग्रहालय", "start": "", "end": "", "text": "<span>See</span> <span>the</span> <span>animals</span> <span>at</span> <span>the</span> <span>zoo</span>."}, {"word": "the monkeys", "target": 1, "": "n", "translation": "माकडे", "start": 32, "end": 34, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>monkeys</span>."}, {"word": "jump", "target": 1, "": "v", "translation": "उडी", "start": 27.5, "end": 29.5, "text": "<span>See</span> <span>Amma</span> <span>jump</span>."}, {"word": "lion", "target": 1, "": "n", "translation": "सिंह", "start": 49, "end": 51, "text": "<span>Meera</span> <span>hears</span> <span>a</span> <span>lion</span>."}, {"word": "roar", "target": 1, "": "v", "translation": "गर्जना", "start": 43, "end": 47, "text": "<span>Hear</span> <span>Amma</span> <span>roar</span>."}, {"word": "an elephant", "target": 1, "": "n", "translation": "एक हत्ती", "start": 65, "end": 68, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>elephant</span>."}, {"word": "swaying", "target": 1, "": "v", "translation": "डोलत होती", "start": 60, "end": 63, "text": "<span>Amma</span> <span>sways</span> <span>her</span> <span>hand</span> <span>like</span> <span>an</span> <span>elephant</span>."}, {"word": "trunk", "target": 1, "": "n", "translation": "ट्रंक", "start": 65, "end": 68, "text": "<span>An</span> <span>elephant</span> <span>has</span> <span>a</span> <span>long</span> <span>trunk</span>."}, {"word": "a giraffe", "target": 1, "": "n", "translation": "एक जिराफ", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span>."}, {"word": "long", "target": 1, "": "dj", "translation": "लांब", "start": 78, "end": "", "text": "<span>A</span> <span>giraffe</span> <span>has</span> <span>a</span> <span>long</span> <span>neck</span>."}, {"word": "eating", "target": 1, "": "v", "translation": "खाणे", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span> <span>eating</span> <span>leaves</span>."}, {"word": "tall", "target": 1, "": "dj", "translation": "उंच", "start": "", "end": "", "text": "<span>The</span> <span>giraffe</span> <span>eats</span> <span>leaves</span> <span>from</span> <span>a</span> <span>tall</span> <span>tree</span>."}, {"word": "a peacock", "target": 1, "": "n", "translation": "एक मोर", "start": 95, "end": 97, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>peacock</span>."}, {"word": "dancing", "target": 1, "": "v", "translation": "नृत्य", "start": 89, "end": 92, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>are</span> <span>dancing</span>."}, {"word": "a crocodile", "target": 1, "": "n", "translation": "एक मगर", "start": 109, "end": 112, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>crocodile</span>."}, {"word": "yawning", "target": 1, "": "v", "translation": "जांभई", "start": 105, "end": 107, "text": "<span>Amma</span> <span>is</span> <span>yawning</span>."}, {"word": "animals", "target": "", "": "n", "translation": "प्राणी", "start": "", "end": "", "text": ""}, {"word": "flopped", "target": 1, "": "v", "translation": "फ्लॉप", "start": 130, "end": 133, "text": "<span>Amma</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span>."}, {"word": "a bear", "target": 1, "": "n", "translation": "एक अस्वल", "start": 134, "end": 136, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span> <span>like</span> <span>a</span> <span>bear</span>."}, {"word": "amma", "target": 2, "": "n", "translation": "अम्मा", "start": "", "end": "", "text": ""},  {"word": "what", "target": "", "": "", "translation": "काय", "start": 4, "end": "", "text": ""} ]';
 
 
   wordData = JSON.parse(data1);
@@ -155,6 +200,9 @@ body{
   var starts;
   var ends;
   var targets=[];
+  var opened =[];
+  var answered = [];
+  var m=0;
 
   var scoreSound = new sound("ring.mp3");
   
@@ -178,26 +226,33 @@ body{
     return;
   document.getElementById("vid").pause();
   document.getElementById("targetList").className="";
+  document.getElementById("tex").className="hide";
+  document.getElementById("startMatch").className="";
 }
 
   function control(x){
-  document.getElementById("wordList").className="text hide";
-  document.getElementById("word").className="text target hide";
-  document.getElementById("tex").className="text hide";
-  document.getElementById("replay").className="hide";
-  document.getElementById("question").className="icon";
-
+  
     console.log(x);
     document.getElementById("targetList").className="hide";
+    document.getElementById("startMatch").className="hide";
     i=x;
+    if(document.getElementById("learn").className===""){
+    document.getElementById("replay").className="hide";
+    document.getElementById("question").className="hide";
     updateTable();
+  }
+  else{
+    updateTableC();
+    console.log("updating answers");
+  }
     updateControl();
-    console.log(i);
+  
   }
 
   function updateControl(){
     document.getElementById("blank").style.display="none";
     if(wordData[targets[i]].start !== ""){
+    document.getElementById("questionC").innerHTML="Pick the matching word!";
     starts = wordData[targets[i]].start;
     ends = wordData[targets[i]].end;
     document.getElementById("vid").currentTime=starts;
@@ -206,6 +261,7 @@ body{
   }
   else{
     document.getElementById("blank").style.display="block";
+    document.getElementById("questionC").innerHTML=wordData[targets[i]].translation+" म्हणजे";
     checkEnd();
   }
   }
@@ -217,17 +273,48 @@ body{
     document.getElementById("translate").innerHTML=wordData[targets[i]].translation;
     document.getElementById("tex").innerHTML=wordData[targets[i]].text;
      $( "span" ).on( "click", giveMeaning);
-    
+  }
+
+  function updateTableC(){
+    console.log("start answer list");
+    var ans =[];
+    ans.push(i);
+    while(ans.length<4){
+     var rIndex = Math.floor(Math.random() * 9);
+      if(ans.indexOf(rIndex)===-1)
+        ans.push(rIndex);
+      console.log(ans.length);
+    }
+    shuffle(ans);
+    console.log(ans);
+    document.getElementById("listC").innerHTML="";
+    for (var a in ans){
+      document.getElementById("listC").innerHTML+="<div  id=\"ans"+(ans[a])+"\" class=\"listButton\" onclick=\"checkAnswer("+(ans[a])+")\">"+wordData[targets[ans[a]]].word+"</div>";
+    }
+  }
+
+  function checkAnswer(answer){
+    if(answer===i){
+      document.getElementById("ans"+answer).style.backgroundColor='green';
+      document.getElementById("word"+answer).style.backgroundColor='green';
+      answered.push(answer);
+      scoreSound.play();
+    }
+    else{
+      document.getElementById("ans"+answer).style.backgroundColor='grey';
+    }
+    m++;
+    t = setTimeout(function(){matchControl(m);}, 1500);
   }
 
   function checkEnd(){
-    if(wordData[targets[i]].end === ""){
+    if(wordData[targets[i]].end === "" || this.currentTime >= ends){
       document.getElementById("vid").pause();
       this.removeEventListener("timeupdate",checkEnd);
-    }
-    else if(this.currentTime >= ends) {
-    document.getElementById("vid").pause();
-    this.removeEventListener("timeupdate",checkEnd);
+      if(document.getElementById("tex").className==="hide")
+        document.getElementById("question").className="";
+      if(document.getElementById("learn").className==="hide")
+        document.getElementById("answerList").className="";
     }
   }
 
@@ -240,6 +327,10 @@ body{
       if(wordData[c].word!==wordData[c].translation)
       this.innerHTML+=" ("+wordData[c].translation+")";
       this.setAttribute("style","color:green;");
+      if(wordData[c].word.includes(document.getElementById("word").innerHTML)){
+        scoreSound.play();
+        replay();
+      }
       break;
     }
     // else if(wordData[c].translation.match(temp)){
@@ -250,18 +341,28 @@ body{
   
 
   function replay(){
-    scoreSound.play();
-  updateTable();
-  document.getElementById("wordList").className="text";
-  document.getElementById("word").className="text target";
+  // updateTable();
   document.getElementById("tex").className="text";
-  document.getElementById("replay").className="icon";
-  document.getElementById("question").className="hide";
+  document.getElementById("replay").className="hide";
+  
   if(wordData[targets[i]].end !== ""){
   console.log("replay");
   document.getElementById("vid").currentTime=starts;
   updateControl();
+  matchCheck();
 }
+}
+
+function reveal(){
+  scoreSound.play();
+  document.getElementById("replay").className="";
+  document.getElementById("question").className="hide";
+  document.getElementById("word").className="wordButton target";
+
+  if(opened.indexOf(i)===-1 && answered.indexOf(i)===-1)
+    opened.push(i);
+    console.log(opened.length);
+    matchCheck();
 }
 
 function hide(d){
@@ -281,6 +382,64 @@ function sound(src) {
   this.stop = function(){
     this.sound.pause();
   }
+}
+
+function matchCheck(){
+  document.getElementById("progress").setAttribute("style","position: absolute; bottom:0; left:0; background-color: red; height:100%; z-index:4; width:"+opened.length*33.4+"%;");
+  console.log(opened.length%3+" matchCheck");
+  if(opened.length%3<1 && m<opened.length){
+    document.getElementById("startText").className="";
+    document.getElementById("startMatch").className="";
+    document.getElementById("next").className="hide";
+    shuffle(opened);
+    console.log(opened);
+  }
+}
+
+function matchControl(o){
+  if(opened.length%3<1 && m<opened.length){
+    document.getElementById("targetList").className="hide";
+    document.getElementById("startMatch").className="hide";
+    document.getElementById("learn").className="hide";
+    document.getElementById("challenge").className="";
+    document.getElementById("header").className="hide";
+    document.getElementById("headerC").className="";
+
+    control(opened[o]);
+    }
+  else{
+    document.getElementById("vid").pause();
+  document.getElementById("targetList").className="";
+  document.getElementById("challenge").className="hide";
+  document.getElementById("startText").className="hide";
+  document.getElementById("learn").className="";
+  document.getElementById("next").className="";
+  document.getElementById("header").className="";
+    document.getElementById("headerC").className="hide";
+  for(var w in answered){
+    if(opened.indexOf(answered[w])!==-1){
+      opened.splice(opened.indexOf(answered[w]),1);
+    }
+  }
+  m=0;
+  matchCheck();
+}
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
 }
 
 </script>
