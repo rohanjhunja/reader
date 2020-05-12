@@ -1,163 +1,506 @@
 <!DOCTYPE html> 
-<html style="width:100%; height:100%; overflow: hidden;"> 
+<html> 
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;600;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style type="text/css">
-  body{
-    font-family: 'Vesper Libre', serif;
-    margin:0;
-    padding:0;
+	html{
+		width:100%; height:100%; overflow: hidden;
+	}
+
+	body{
+		margin:0;
+	    padding:0;
+	    width:100%;
+	    height: 100%;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+	    background-color: #e8dcc1;
+	    font-family: 'Martel Sans', sans-serif;
+	}
+
+	#header{
     width:100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-color: #e6e6e6;
+    height: 30px;
+    background-color: #EE6055; font-family: 'Alegreya', serif; 
+    color: white; text-align: center; 
+    font-size: 30px;
+    line-height: 1.3;
+    padding: 10px 0;
   }
 
-  #header{
-  	width:100%;
-  	height: 30px;
-  	background-color: red;
-  	color: white;
-  	font-family: 'Alegreya', serif;
-  	font-size: 30px;
+  #overview{
+    width: auto;
+    overflow-y: scroll;
+    background-color: #e8dcc1;
+    z-index: 4;  
+    position:absolute; top:50px; bottom:0; left:0; right:0; 
+  }
+
+  #scoreBoard{
   	text-align: center;
-  	line-height: 1;
-  	padding: 10px 0;
+  	margin: 10px;
   }
-
-  #levelBar{
-  	width:100%;
-  	background-color: #f2f2f2;
-  	color: white;
-  	font-size: 20px;
+  #help{
   	text-align: center;
-  	padding: 6px 0;
-  }
-  .levelButton{
-  	width:20%;
-  	margin: 0 5px;
-  	display:inline-block;
-  	border-radius: 20px;
-  	background-color: white;
-  	color: black;
-  	line-height: 1;
-  	padding: 8px 0;
+  	margin: 10px;
   }
 
-  .select{
-  	background-color: yellow;
-  	color: black;
-  }
-
-  #storyList{
-  	margin: 1rem;
-  	width: auto;
-  	height:540px;
-  	overflow-y: scroll;
-  }
-
-  #storyList > div{
-  	display: grid;
-  	grid-template-columns: 1fr 1fr;
-  	grid-template-rows: 150px;
-  	grid-gap: 1rem;
-  	margin-bottom:70px;
+  #list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    grid-gap: 1rem;
+    margin: 1rem 1rem 100px 1rem;
   }
 
   .listButton{
-  	width:100%;
-  	height:150px;
-  	display: inline-block;
-  	border-radius: 10px;
-  	background-color: white;
-  	overflow: hidden;
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background-color:   #daceb3;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
   }
 
-  .listButton > div{
-  	height:50%;
-  	width:100%;
-  	overflow: hidden;
+  #controls{
+  	position: absolute;
+  	bottom: 20px;
+  	left:0;
+  	right: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
   }
 
-   .listButton img{
-   	width:100%;
-   	object-fit: cover;
+  #startMatch{
+  	width:50%;
+  	height: 30px;
+    background-color: #EE6055; font-family: 'Alegreya', serif; 
+    color: white; text-align: center; 
+    font-size: 30px;
+    line-height: 1;
+    padding: 10px 0;
+    border-radius: 20px;
+  }
+
+  #challenge{
+  	margin: 10px 20px;
+  	text-align: center;
+  }
+
+  #answerList>div{
+  	margin: 10px 0;
+  }
+
+  #tex{
+  	padding: 10px 20px;
+  	text-align: center;
+  }
+
+
+  #tex > span{
+    display: inline-block;
    }
 
-   .listButton > div> div{
-   	display: inline-block;
+  #videoFrame{
+    background-color: black; overflow-y:hidden; height:170px; position: relative;
+  }
 
-   }
+  #blank{
+  	background-color: #e8dcc1; z-index: 1; position: absolute; bottom:0; height:100%;  width:100%;
 
-   .levelText{
-   	width:30%;
-   	font-size: 50px;
-   	text-align: center;
-   	margin-top: 15px;
-   	line-height: 0.8;
-   }
+  }
 
-   .listText{
-   	width: 65%;
-   	vertical-align: top;
-   	margin-top: 15px;
-   	font-size: 18px;
-   	line-height: 1.2;
-   	
-   }
+  #vidText{
+  	 z-index: 2; position: absolute; bottom:0; height:100%;  width:100%;
+  	  display: flex;
+  justify-content: center;
+  align-items: center;
+  	 
+  }
 
-  </style>
-<body > 
-	<div id="header">WordMatch!</div>
-	<div id="levelBar"><div id="all" class="select levelButton" onclick="loadStory(this.id)" >All</div><div id="1" class="levelButton" onclick="loadStory(this.id)">1</div><div id="2" class="levelButton" onclick="loadStory(this.id)">2</div><div id="3" class="levelButton" onclick="loadStory(this.id)">3</div></div></div>
+  .boldText{
+  	font-weight: 900;
+  	 font-size: 30px;
+  		text-shadow:
+   -3px -3px 0 #ffffff,  
+    3px -3px 0 #ffffff,
+    -3px 3px 0 #ffffff,
+     3px 3px 0 #ffffff;
+  }
 
-	<div id="storyList"> <div id="list">
-		
+  .normalText{
+  	font-weight: 600;
+  	 font-size: 24px;
+  }
+
+
+
+	.hide{
+		display: none;
+	}
+
+</style>
+
+<body>
+	<div id=header>Title</div>
+
+	<div  id="overview">
+		<div id="scoreBoard" class="boldText"></div>
+		<div id="help"></div>
+		<div id="list"></div>
+	
 	</div>
 
+	<div id="videoFrame">
+	<video id="vid" width=100% autoplay>
+		<source src="zoo.mp4" type="video/mp4">
+   		<track kind="subtitles" src="captions.vtt" label="English Reader">
+  		Your browser does not support HTML5 video.
+	</video>
+	<div >
+		<div id="blank" class="hide"></div>
+		<div id="vidText" class="boldText">
+			<div id="word" class="hide"></div>
+			<div id="translate" class="hide" onclick="revealWord()"></div>
+		</div>
 	</div>
+	</div>
+
+	<div id="learn">
+		<div id="tex" class="normalText hide"></div>
+		<div id="controls"><div id="startMatch" class="hide" onclick="startMatch()">Start Match</div><div id="next"></div></div>
+	</div>
+
+	<div id="challenge">
+		<div id="question" class="normalText"></div>
+		<div id="answerList" class="hide"></div>
+		<div id="hint" class="hide" onclick="checkTranslate()"></div>
 	</div>
 
 </body>
 
-</html>
-
 <script type="text/javascript">
 	
-var data = '[{"level": 1, "name": "At the Zoo", "image": "zoo", "video": "", "words": ""}, {"level": 1, "name": "The Wind and the Sun", "image": "wind", "video": "", "words": ""}, {"level": 2, "name": "The Lion King", "image": "lion", "video": "", "words": ""}, {"level": 2, "name": "Farida Plans a Feast", "image": "feast", "video": "", "words": ""}, {"level": 3, "name": "Flying Lesson", "image": "flying", "video": "", "words": ""}, {"level": 3, "name": "National Team", "image": "national", "video": "", "words": ""} ]';
 
-someData = JSON.parse(data);
-var temp = 'all';
-loadStory('all');
+	var data1 = '[ {"word": "a", "target": "", "": "", "translation": "a", "start": 1, "end": "", "text": ""}, {"word": "by", "target": "", "part": "p", "translation": "करून", "start": 2, "end": "", "text": ""}, {"word": "so", "target": "", "part": "dv", "translation": "त्यामुळे", "start": 2, "end": "", "text": ""}, {"word": "at", "target": "", "part": "p", "translation": "येथे", "start": 2, "end": "", "text": ""}, {"word": "no", "target": "", "": "", "translation": "नाही", "start": 2, "end": "", "text": ""}, {"word": "an", "target": "", "": "", "translation": "an", "start": 2, "end": "", "text": ""}, {"word": "to", "target": "", "": "", "translation": "to", "start": 2, "end": "", "text": ""}, {"word": "we", "target": "", "": "", "translation": "आम्ही", "start": 2, "end": "", "text": ""}, {"word": "go", "target": "", "part": "v", "translation": "जाता जाता", "start": 2, "end": "", "text": ""}, {"word": "did", "target": "", "part": "v", "translation": "केले", "start": 3, "end": "", "text": ""}, {"word": "you", "target": "", "": "", "translation": "आपण", "start": 3, "end": "", "text": ""}, {"word": "see", "target": "", "part": "v", "translation": "पहा", "start": 3, "end": "", "text": ""}, {"word": "the", "target": "", "": "", "translation": "the", "start": 3, "end": "", "text": ""}, {"word": "its", "target": "", "": "", "translation": "त्याच्या", "start": 3, "end": "", "text": ""}, {"word": "way", "target": "", "part": "n", "translation": "मार्ग", "start": 3, "end": "", "text": ""}, {"word": "and", "target": "", "": "", "translation": "and", "start": 3, "end": "", "text": ""}, {"word": "saw", "target": "", "part": "v", "translation": "पाहिले", "start": 3, "end": "", "text": ""}, {"word": "said", "target": "", "part": "v", "translation": "म्हणाला,", "start": 4, "end": "", "text": ""}, {"word": "like", "target": "", "part": "p", "translation": "सारखे", "start": 4, "end": "", "text": ""}, {"word": "this", "target": "", "part": "n", "translation": "this", "start": 4, "end": "", "text": ""}, {"word": "hear", "target": "", "part": "v", "translation": "ऐका", "start": 4, "end": "", "text": ""}, {"word": "must", "target": "", "part": "v", "translation": "हे केलेच पाहिजे", "start": 4, "end": "", "text": ""}, {"word": "have", "target": "", "part": "v", "translation": "आहे", "start": 4, "end": "", "text": ""}, {"word": "seen", "target": "", "part": "v", "translation": "पाहिले", "start": 4, "end": "", "text": ""}, {"word": "that", "target": "", "": "", "translation": "की", "start": 4, "end": "", "text": ""}, {"word": "with", "target": "", "": "", "translation": "सह", "start": 4, "end": "", "text": ""}, {"word": "neck", "target": "", "part": "n", "translation": "मान", "start": 4, "end": "", "text": ""}, {"word": "from", "target": "", "part": "p", "translation": "पासून", "start": 4, "end": "", "text": ""}, {"word": "tree", "target": "", "part": "n", "translation": "झाड", "start": 4, "end": "", "text": ""}, {"word": "went", "target": "", "part": "v", "translation": "गेला", "start": 4, "end": "", "text": ""}, {"word": "story", "target": "", "part": "n", "translation": "कथा", "start": 5, "end": "", "text": ""}, {"word": "nayar", "target": "", "part": "n", "translation": "नायर", "start": 5, "end": "", "text": ""}, {"word": "asked", "target": "", "part": "v", "translation": "विचारले", "start": 5, "end": "", "text": ""}, {"word": "n…n…o", "target": "", "": "", "translation": "n ... n ... ओ", "start": 5, "end": "", "text": ""}, {"word": "today", "target": "", "part": "n", "translation": "आज", "start": 5, "end": "", "text": ""}, {"word": "we’re", "target": "", "": "", "translation": "आम्ही आहोत", "start": 5, "end": "", "text": ""}, {"word": "going", "target": "", "part": "v", "translation": "जाणे", "start": 5, "end": "", "text": ""}, {"word": "amma…", "target": "", "part": "n", "translation": "अम्मा ...", "start": 5, "end": "", "text": ""}, {"word": "didn’t", "target": "", "part": "v", "translation": "नाही", "start": 6, "end": "", "text": ""}, {"word": "leaves", "target": "", "part": "n", "translation": "पाने", "start": 6, "end": "", "text": ""}, {"word": "ground", "target": "", "part": "n", "translation": "जमिनीवर", "start": 6, "end": "", "text": ""}, {"word": "nandini", "target": "", "part": "n", "translation": "नंदिनी", "start": 7, "end": "", "text": ""}, {"word": "nothing", "target": "", "part": "n", "translation": "काहीही नाही", "start": 7, "end": "", "text": ""}, {"word": "meera", "target": 2, "part": "n", "translation": "मीरा", "start": "", "end": "", "text": ""}, {"word": "meera’s", "target": "", "part": "n", "translation": "मीरा च्या", "start": 7, "end": "", "text": ""}, {"word": "tomorrow", "target": "", "part": "n", "translation": "उद्या", "start": 8, "end": "", "text": ""}, {"word": "the zoo", "target": 1, "part": "n", "translation": "प्राणीसंग्रहालय", "start": "", "end": "", "text": "<span>See</span> <span>the</span> <span>animals</span> <span>at</span> <span>the</span> <span>zoo</span>."}, {"word": "the monkeys", "target": 1, "part": "n", "translation": "माकडे", "start": 32, "end": 34, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>monkeys</span>."}, {"word": "jump", "target": 1, "part": "v", "translation": "उडी", "start": 27.5, "end": 29.5, "text": "<span>See</span> <span>Amma</span> <span>jump</span>."}, {"word": "lion", "target": 1, "part": "n", "translation": "सिंह", "start": 49, "end": 51, "text": "<span>Meera</span> <span>hears</span> <span>a</span> <span>lion</span>."}, {"word": "roar", "target": 1, "part": "v", "translation": "गर्जना", "start": 43, "end": 47, "text": "<span>Hear</span> <span>Amma</span> <span>roar</span>."}, {"word": "an elephant", "target": 1, "part": "n", "translation": "एक हत्ती", "start": 65, "end": 68, "text": "<span>Meera</span> <span>sees</span> <span>the</span> <span>elephant</span>."}, {"word": "swaying", "target": 1, "part": "v", "translation": "डोलत होती", "start": 60, "end": 63, "text": "<span>Amma</span> <span>swaying</span> <span>her</span> <span>hand</span> <span>like</span> <span>an</span> <span>elephant</span>."}, {"word": "trunk", "target": 1, "part": "n", "translation": "ट्रंक", "start": 65, "end": 68, "text": "<span>An</span> <span>elephant</span> <span>has</span> <span>a</span> <span>long</span> <span>trunk</span>."}, {"word": "a giraffe", "target": 1, "part": "n", "translation": "एक जिराफ", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span>."}, {"word": "long", "target": 1, "part": "dj", "translation": "लांब", "start": 78, "end": "", "text": "<span>A</span> <span>giraffe</span> <span>has</span> <span>a</span> <span>long</span> <span>neck</span>."}, {"word": "eating", "target": 1, "part": "v", "translation": "खाणे", "start": 78, "end": 80, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>giraffe</span> <span>eating</span> <span>leaves</span>."}, {"word": "tall", "target": 1, "part": "dj", "translation": "उंच", "start": "", "end": "", "text": "<span>The</span> <span>giraffe</span> <span>eats</span> <span>leaves</span> <span>from</span> <span>a</span> <span>tall</span> <span>tree</span>."}, {"word": "a peacock", "target": 1, "part": "n", "translation": "एक मोर", "start": 95, "end": 97, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>peacock</span>."}, {"word": "dancing", "target": 1, "part": "v", "translation": "नृत्य", "start": 89, "end": 92, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>are</span> <span>dancing</span>."}, {"word": "a crocodile", "target": 1, "part": "n", "translation": "एक मगर", "start": 109, "end": 112, "text": "<span>Meera</span> <span>sees</span> <span>a</span> <span>crocodile</span>."}, {"word": "yawning", "target": 1, "part": "v", "translation": "जांभई", "start": 105, "end": 107, "text": "<span>Amma</span> <span>is</span> <span>yawning</span>."}, {"word": "animals", "target": "", "part": "n", "translation": "प्राणी", "start": "", "end": "", "text": ""}, {"word": "flopped", "target": 1, "part": "v", "translation": "फ्लॉप", "start": 130, "end": 133, "text": "<span>Amma</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span>."}, {"word": "a bear", "target": 1, "part": "n", "translation": "एक अस्वल", "start": 134, "end": 136, "text": "<span>Amma</span> <span>and</span> <span>Meera</span> <span>flopped</span> <span>to</span> <span>the</span> <span>ground</span> <span>like</span> <span>a</span> <span>bear</span>."}, {"word": "amma", "target": 2, "part": "n", "translation": "अम्मा", "start": "", "end": "", "text": ""},  {"word": "what", "target": "", "part": "", "translation": "काय", "start": 4, "end": "", "text": ""} ]';
+
+	wordData = JSON.parse(data1);
+
+	var i=-1;
+	var starts;
+  	var ends;
+  	var targets=[];
+  	var opened =[];
+  	var revise =[];
+  	var answered = [];
+
+  	var mMin=3;
+  	var mMax=mMin;
+  	var turns=0;
+  	var m=0;
+  	var mode="overview";
+  	var hint=false;
+  	var score=0;
+
+  	var scoreSound = new sound("ring.mp3");
+
+  	document.getElementById("header").innerHTML="At the Zoo";
+
+  	for(b in wordData){
+      if(wordData[b].target === 1){
+        targets.push(b);
+        console.log(b);
+        document.getElementById("list").innerHTML+="<div  id=\"word"+(targets.length-1)+"\" class=\"listButton\" onclick=\"controlLearn("+(targets.length-1)+")\">?</div>";
+    	}
+    }
+    shuffle(targets);
+
+    function controlLearn(x){
+
+    	if(answered.indexOf(x)!==-1 || revise.indexOf(x)!==-1 || x===answered.length+revise.length){
+    	console.log(x);
+    	i=x;
+    	updateMode("learn");
+    	nextWord();
+    }
+    }
+
+    function updateMode(newMode){
+    			hide(mode);
+    			show(newMode);
+    			mode=newMode;
+    }
+
+    function nextWord(){
+    	console.log("opened "+opened.length+" revise "+revise.length+" answered "+answered.length+" mMax "+mMax);
+    	if(opened.length+revise.length<mMax && opened.length+revise.length+answered.length<targets.length){
+    	hide("blank"); hide("word"); hide("translate"); hide("tex");
+    	updateText();
+    	updateDisplay();
+    }
+    else if(opened.length+revise.length===mMax && revise.length>0){
+    		i=revise.pop();
+    		console.log(i+"revise");
+    		hide("blank"); hide("word"); hide("translate"); hide("tex");
+    	updateText();
+    	updateDisplay();
+    	}
+    else{
+    	hide("next");
+  		show("startMatch");
+    }
+    }
 
 
-function loadStory(lvl){
 
-	document.getElementById("list").innerHTML="";
-	document.getElementById(temp).className="levelButton";
-	document.getElementById(lvl).className="select levelButton";
-	temp = lvl;
+    function updateText(){
 
-for(c in someData){
+    document.getElementById("word"+i).innerHTML=wordData[targets[i]].word;
 
-	let name = someData[c].name;
-	let image = someData[c].image;
-	let level = someData[c].level;
+    document.getElementById("word").innerHTML=wordData[targets[i]].word;
+    document.getElementById("translate").innerHTML=wordData[targets[i]].translation;
+    document.getElementById("tex").innerHTML=wordData[targets[i]].text;
+     $( "span" ).on( "click", giveMeaning);
+     if(mode==="challenge"){
+     	 document.getElementById("question").innerHTML=wordData[targets[i]].text;
+     	 $('span').each(function () {
+    		if(wordData[targets[i]].word.includes(this.innerHTML)){
+    			this.style.color = "#daceb3";
+    			this.style.backgroundColor = "#daceb3";
+    		}
+		});
+  }}
 
-	if(lvl==level || lvl=='all')
-	document.getElementById("list").innerHTML+= "<div id=\"story"+c+"\" class=\"listButton\" onclick=\"openStory()\"> <div><img src="+image+".png \"></div> <div><div class=\"levelText\">"+level+"</div><div class=\"listText\">"+name+"</div></div></div>";
-		
-		}
-	}
+  function updateDisplay(){
+  	hide("blank");
+  	 if(wordData[targets[i]].start !== ""){
+  	 	starts = wordData[targets[i]].start;
+    	ends = wordData[targets[i]].end;
+   		document.getElementById("vid").currentTime=starts;
+    	document.getElementById("vid").addEventListener("timeupdate", checkEnd);
+    	document.getElementById("vid").play();
+    	show("hint");
+  	 }
+  	 else{
+  	 	show("blank");
+  	 	hide("hint");
+  	 }
+  	 checkEnd();
+  }
 
-function openStory(story){
-	window.location = 'testImage.html';
+  function checkEnd(){
+    if(wordData[targets[i]].end === "" || this.currentTime >= ends){
+      document.getElementById("vid").pause();
+      this.removeEventListener("timeupdate",checkEnd);
+      if(mode==="learn"){
+      	if(document.getElementById("tex").className.includes("hide"))
+      	show("translate");
+ 		else{
+ 			do{
+ 			i++;
+ 			console.log("skip "+i);
+ 		}
+ 		while(answered.indexOf(i)!==-1);
+ 			
+ 			nWord = setTimeout(function(){nextWord();}, 1000);
+ 		}
+      }
+      else {
+      	show("answerList");
+      }
+    }
+  }
+
+  function revealWord(){
+  	hide("translate");
+  	show("word");
+  	scoreSound.play();
+  	opened.push(i);
+  	tSent = setTimeout(function(){hide("word"); show("tex");}, 1500);
+  }
+
+  function giveMeaning(){
+  
+  const temp = this.innerHTML;
+
+  for(var c in wordData){
+    if(wordData[c].word.match(temp.toLowerCase())){
+      if(wordData[c].word!==wordData[c].translation)
+      this.innerHTML+=" ("+wordData[c].translation+")";
+      this.setAttribute("style","color:green;");
+      if(wordData[c].word.includes(document.getElementById("word").innerHTML)){
+        scoreSound.play();
+        updateDisplay();
+      }
+      break;
+    }
+  }}
+
+  function startMatch(){
+  	updateMode("challenge");
+  	hide("startMatch");
+  	shuffle(opened);
+  	console.log(opened);
+  	nextMatch();
+  }
+
+
+  function nextMatch(){
+  	turns=0;
+  	if(opened.length>0){
+  		hide("answerList");
+  		hide("hint");
+  		i=opened.pop();
+  		updateText();
+  		updateOptions();
+  		updateDisplay();
+  	}
+  	else{
+  		mMax=mMax+answered.length-Math.floor((mMax/2));
+  		if(mMax<mMin)
+  			mMax=mMin;
+  		if(mMax>targets.length-answered.length)
+  			mMax=targets.length-answered.length;
+  		document.getElementById("scoreBoard").innerHTML=score+"/"+targets.length*10;
+  		document.getElementById("help").innerHTML="Open "+mMax+" words!";
+  		updateMode("overview");
+  	}
+  }
+
+  function updateOptions(){
+  	var ans =[];
+    ans.push(i);
+    while(ans.length<4){
+     var rIndex = Math.floor(Math.random() * 9);
+      if(ans.indexOf(rIndex)===-1)
+        ans.push(rIndex);
+      console.log(ans.length);
+    }
+    shuffle(ans);
+    console.log(ans);
+    document.getElementById("answerList").innerHTML="";
+    for (var a in ans){
+      document.getElementById("answerList").innerHTML+="<div  id=\"ans"+(ans[a])+"\" class=\"listButton\" onclick=\"checkAnswer("+(ans[a])+")\">"+wordData[targets[ans[a]]].word+"</div>";
+    }
+  }
+
+  function checkAnswer(answer){
+  	if(answer===i){
+  		document.getElementById("ans"+answer).style.backgroundColor=getColor(i);
+      	if(turns===0){
+      		updateScore();
+      		document.getElementById("word"+answer).style.backgroundColor=getColor(i);
+      		answered.push(answer);
+      	}
+      	else{
+      		revise.push(i);
+      	}
+      	scoreSound.play();
+      	mNext=setTimeout(function(){nextMatch();}, 1000);
+  	}
+  	else if(turns===1){
+  		document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
+  			wrong = setTimeout(function(){document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
+  			document.getElementById("ans"+i).style.backgroundColor=getColor(i);
+  			revise.push(i);
+  			mNext=setTimeout(function(){nextMatch();}, 1500);}, 1200);
+  			
+  		}
+  	else {
+  		document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
+  		turns++;
+   	}
+  }
+
+  function checkTranslate(){
+  	show("translate");
+  	turns++;
+  }
+
+  function updateScore(){
+  	score+=10;
+  	document.getElementById("scoreBoard").innerHTML=score;
+  }
+
+  function getColor(e){
+  	var col;
+  	switch(wordData[targets[e]].part){
+  		case 'n':
+  		col="#60D394";
+  		break;
+  		case 'v':
+  		col="#8FB2E4";
+  		break;
+  		case 'p':
+  		col="#FCD99A";
+  		break;
+  		case 'dj':
+  		col="#96DFDB";
+  		break;
+  		case 'dv':
+  		col="#60D394";
+  		break;
+  		default: col="#A1D5F8";
+  	}
+  	console.log(col+" "+wordData[targets[e]].part);
+  	return(col);
+
+  }
+
+
+
+    function show(a){
+    	var str = document.getElementById(a).className;
+    	if(str.includes("hide"))
+    	document.getElementById(a).className=str.replace("hide","");
+    		
+    }
+
+    function hide(a){
+    	var str = document.getElementById(a).className;
+    	if(!str.includes("hide"))
+    	document.getElementById(a).className+="hide";
+    }
+
+    function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function(){
+    this.sound.play();
+  }
+  this.stop = function(){
+    this.sound.pause();
+  }
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
 }
 
 
