@@ -515,7 +515,7 @@ async function speakOut (speak){
     if(speak !== '') { 
     	const speakText = new SpeechSynthesisUtterance(speak);
     	speakText.lang = 'hi-IN';
-    	speakText.rate=0.1;
+    	speakText.rate=0.2;
     	synth.speak(speakText); 
 	}
 }
