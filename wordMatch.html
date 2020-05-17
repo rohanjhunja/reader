@@ -187,7 +187,7 @@
 		<div id="scroller"><div id="list"></div></div>
 		<div id="controls2">
 		<div id="story" class="listButton hide" onclick="playStory()">See Story!</div>
-		<div id="reload" class="listButton. hide" onclick="reload()">Play Again</div>
+		<div id="reload" class="listButton hide" onclick="reload()">Play Again</div>
 		<div id="lesson" class="listButton" onclick="Learn()">Learn 3 words</div>
 		<div id="takeChallenge" class="listButton" onclick="Challenge()">Take Challenge</div>
 	</div>
@@ -440,6 +440,7 @@
   		document.getElementById("lesson").innerHTML="Learn "+mMax+" words!";
   		if(answered.length===targets.length){
   			show("story");
+  			show("reload");
   			hide("lesson");
   			hide("takeChallenge");
   		}
@@ -514,6 +515,10 @@
     	document.getElementById("vid").addEventListener("ended", function() { document.getElementById("videoFrame").style.height="170px"; updateMode("overview")});
     	document.getElementById("vid").play();
 
+  }
+
+  function reload(){
+  	window.location.reload();
   }
 
   function getColor(e){
