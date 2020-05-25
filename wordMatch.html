@@ -480,16 +480,6 @@
       	speakOut(wordData[targets[i]].text.replace(/<|span|>/g,""));
       	speakText.onend = function() {scoreSound.play(); document.getElementById("scoreBoard2").innerHTML=score; mNext=setTimeout(function(){nextMatch();}, 1000);};
   	}
-  	else if(turns===1){
-  		document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
-  		speakOut("नहीं"); 
-  			wrong = setTimeout(function(){document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
-  			document.getElementById("ans"+i).style.backgroundColor=getColor(i);
-  			revise.push(i);
-  			targetWord.style.color="green";
-  			speakOut(wordData[targets[i]].text.replace(/<|span|>/g,""));
-  			speakText.onend = function() {mNext=setTimeout(function(){nextMatch();}, 1500);};}, 1200);
-  		}
   	else {
   		speakOut("नहीं। फिर से कोशिश करें");
   		document.getElementById("ans"+answer).style.backgroundColor='#FF9B85';
