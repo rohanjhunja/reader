@@ -195,7 +195,7 @@
 	
 
 	<div id="videoFrame">
-	<video id="vid" width=100% autoplay>
+	<video id="vid" width=100%>
 		<source src="zoo.mp4" type="video/mp4">
    		<track kind="subtitles" src="captions.vtt" label="English Reader">
   		Your browser does not support HTML5 video.
@@ -577,7 +577,7 @@ async function speakOut (speak){
     if(speak !== '') { 
     	speakText = new SpeechSynthesisUtterance(speak);
     	speakText.lang = 'hi-IN';
-    	speakText.rate=0.1;
+    	speakText.rate=0.5;
     	synth.speak(speakText); 
 	}
 }
