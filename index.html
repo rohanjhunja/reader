@@ -130,7 +130,7 @@
 
 <script type="text/javascript">
 	
-var data = '[{"level": 1, "name": "At the Zoo", "image": "zoo", "video": "", "words": ""}, {"level": 1, "name": "The Wind and the Sun", "image": "wind", "video": "", "words": ""}, {"level": 2, "name": "The Lion King", "image": "lion", "video": "", "words": ""}, {"level": 2, "name": "Farida Plans a Feast", "image": "feast", "video": "", "words": ""}, {"level": 3, "name": "Flying Lesson", "image": "flying", "video": "", "words": ""}, {"level": 3, "name": "National Team", "image": "national", "video": "", "words": ""} ]';
+var data = '[{"level": 1, "name": "At the Zoo", "key": "zoo"}, {"level": 1, "name": "The Greatest Treasure", "key": "treasure"}, {"level": 1, "name": "The Wind and the Sun", "key": "wind"}, {"level": 2, "name": "The Lion King", "key": "lion"}, {"level": 2, "name": "Farida Plans a Feast", "key": "feast"}, {"level": 3, "name": "Flying Lesson", "key": "flying"}, {"level": 3, "name": "National Team", "key": "national"} ]';
 
 someData = JSON.parse(data);
 var temp = 'all';
@@ -147,17 +147,17 @@ function loadStory(lvl){
 for(c in someData){
 
 	let name = someData[c].name;
-	let image = someData[c].image;
+	let key = someData[c].key;
 	let level = someData[c].level;
 
 	if(lvl==level || lvl=='all')
-	document.getElementById("list").innerHTML+= "<div id=\"story"+c+"\" class=\"listButton\" onclick=\"openStory()\"> <div><img src="+image+".png \"></div> <div><div class=\"levelText\">"+level+"</div><div class=\"listText\">"+name+"</div></div></div>";
+	document.getElementById("list").innerHTML+= "<div id=\""+key+"\" class=\"listButton\" onclick=\"openStory(this.id)\"> <div><img src="+key+".png \"></div> <div><div class=\"levelText\">"+level+"</div><div class=\"listText\">"+name+"</div></div></div>";
 		
 		}
 	}
 
 function openStory(story){
-	window.location = 'wordMatch.html';
+	window.location = 'wordMatch.html?set='+story;
 }
 
 
