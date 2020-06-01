@@ -1,0 +1,1181 @@
+[
+  {
+    "word": "manta rays",
+    "target": 1,
+    "part": "n",
+    "translation": "मैंटा रे",
+    "start": 29,
+    "end": 37,
+    "text": "<span>A</span> <span>group</span> <span>of</span> <span>manta</span> <span>rays</span> <span>are</span> <span>feasting</span> <span>on</span> <span>fish</span>."
+  },
+  {
+    "word": "streak",
+    "target": 1,
+    "part": "n",
+    "translation": "लकीर",
+    "start": 72,
+    "end": 76,
+    "text": "<span>There</span> <span>was</span> <span>a</span> <span>huge</span> <span>streak</span> <span>of</span> <span>lightning</span>."
+  },
+  {
+    "word": "lighthouse",
+    "target": 1,
+    "part": "n",
+    "translation": "प्रकाशस्तंभ",
+    "start": 140,
+    "end": 142,
+    "text": "<span>Pishi</span> <span>saw</span> <span>the</span> <span>lighthouse</span> <span>on</span> <span>the</span> <span>coast</span>."
+  },
+  {
+    "word": "tummy",
+    "target": 1,
+    "part": "n",
+    "translation": "पेट",
+    "start": 166,
+    "end": 168,
+    "text": "<span>The</span> <span>fish</span> <span>cleaned</span> <span>the</span> <span>deep</span> <span>gash</span> <span>in</span> <span>his</span> <span>tummy</span>."
+  },
+  {
+    "word": "dive",
+    "target": 1,
+    "part": "n",
+    "translation": "डुबकी",
+    "start": 55,
+    "end": 60,
+    "text": "<span>Pishi</span> <span>took</span> <span>a</span> <span>huge</span> <span>dive</span> <span>in</span> <span>the</span> <span>water</span>."
+  },
+  {
+    "word": "coast",
+    "target": 1,
+    "part": "n",
+    "translation": "तट",
+    "start": 112,
+    "end": 117,
+    "text": "<span>He</span> <span>swam</span> <span>towards</span> <span>the</span> <span>coast</span>."
+  },
+  {
+    "word": "scattered",
+    "target": 1,
+    "part": "v",
+    "translation": "बिखरे हुए",
+    "start": 60,
+    "end": 62,
+    "text": "<span>Pishi</span> <span>took</span> <span>a</span> <span>huge</span> <span>dive</span> <span>and</span> <span>his</span> <span>friends</span> <span>scattered</span>."
+  },
+  {
+    "word": "swam",
+    "target": 1,
+    "part": "v",
+    "translation": "लपेटे हुए",
+    "start": 110,
+    "end": 115,
+    "text": "<span>He</span> <span>swam</span> <span>towards</span> <span>the</span> <span>coast</span>."
+  },
+  {
+    "word": "splashed",
+    "target": 1,
+    "part": "v",
+    "translation": "छिड़क",
+    "start": 44,
+    "end": 48,
+    "text": "<span>The</span> <span>manta</span> <span>rays</span> <span>splashed</span> <span>and</span> <span>jumped</span> <span>out</span> <span>of</span> <span>the</span> <span>waters"
+  },
+  {
+    "word": "flapped",
+    "target": 1,
+    "part": "v",
+    "translation": "फड़फड़ाते",
+    "start": 64,
+    "end": 67,
+    "text": "<span>Pishi</span> <span>flapped</span> <span>his</span> <span>huge</span> <span>fins</span>."
+  },
+  {
+    "word": "glided",
+    "target": 1,
+    "part": "v",
+    "translation": "glided",
+    "start": 110,
+    "end": 114,
+    "text": "<span>He</span> <span>swam</span> <span>fast</span> <span>and</span> <span>glided</span> <span>in</span> <span>the</span> <span>water</span>."
+  },
+  {
+    "word": "leapt",
+    "target": 1,
+    "part": "v",
+    "translation": "जोर से उछले",
+    "start": 142,
+    "end": 145,
+    "text": "<span>Pishi</span> <span>leapt</span> <span>with</span> <span>joy</span>."
+  },
+  {
+    "word": "nibbled",
+    "target": 1,
+    "part": "v",
+    "translation": "nibbled",
+    "start": 171,
+    "end": 175,
+    "text": "<span>The</span> <span>‘cleaner</span> <span>fish’</span> <span>nibbled</span> <span>on</span> <span>the</span> <span>torn</span> <span>pieces</span> <span>of</span> <span>skin</span>."
+  },
+  {
+    "word": "rolled",
+    "target": 1,
+    "part": "v",
+    "translation": "लुढ़का हुआ",
+    "start": 87,
+    "end": 91,
+    "text": "<span>A</span> <span>big</span> <span>wave</span> <span>rolled</span> <span>up</span> <span>and</span> <span>pushed</span> <span>Pishi</span>."
+  },
+  {
+    "word": "cloak-like",
+    "target": 1,
+    "part": "dj",
+    "translation": "लबादा की तरह",
+    "start": 64,
+    "end": 67,
+    "text": "<span>Pishi</span> <span>flapped</span> <span>his</span> <span>huge</span> <span>cloak-like</span> <span>fins</span>."
+  },
+  {
+    "word": "marine",
+    "target": 1,
+    "part": "dj",
+    "translation": "समुद्री",
+    "start": 180,
+    "end": 187,
+    "text": "<span>Pishi</span> <span>loved</span> <span>the</span> <span>Indian</span> <span>Ocean</span> <span>with</span> <span>its</span> <span>5,000</span> <span>species</span> <span>of</span> <span>marine</span> <span>life</span>!"
+  },
+  {
+    "word": "belly",
+    "target": 1,
+    "part": "n",
+    "translation": "पेट",
+    "start": 94,
+    "end": 97,
+    "text": "<span>Pishi</span> <span>has</span> <span>a</span> <span>cut</span> <span>on</span> <span>his</span> <span>belly</span>!"
+  },
+  {
+    "word": "huge",
+    "target": 1,
+    "part": "dj",
+    "translation": "विशाल",
+    "start": 125,
+    "end": 130,
+    "text": "<span>Pishi</span> <span>is</span> <span>a</span> <span>huge</span> <span>manta</span> <span>ray</span>."
+  },
+  {
+    "word": "thunder",
+    "target": 1,
+    "part": "n",
+    "translation": "बिजली",
+    "start": 75,
+    "end": 79,
+    "text": "<span>There</span> <span>was</span> <span>a</span> <span>streak</span> <span>of</span> <span>lightning</span> <span>and</span> <span>the</span> <span>sound</span> <span>of</span> <span>thunder</span>."
+  },
+  {
+    "word": "treated",
+    "target": "",
+    "part": "v",
+    "translation": "इलाज किया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "feasting",
+    "target": "",
+    "part": "v",
+    "translation": "दावत",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "pushing",
+    "target": "",
+    "part": "v",
+    "translation": "धक्का",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "cleaned",
+    "target": "",
+    "part": "v",
+    "translation": "साफ किया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "lonely",
+    "target": "",
+    "part": "dj",
+    "translation": "अकेला",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Pishi",
+    "target": 2,
+    "part": "n",
+    "translation": "Pishi",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "day",
+    "target": "",
+    "part": "n",
+    "translation": "दिन",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "group",
+    "target": "",
+    "part": "n",
+    "translation": "समूह",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "manta",
+    "target": "",
+    "part": "n",
+    "translation": "मैंटा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "rays",
+    "target": "",
+    "part": "n",
+    "translation": "रे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tons",
+    "target": "",
+    "part": "n",
+    "translation": "टन",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "fish",
+    "target": "",
+    "part": "n",
+    "translation": "मछली",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Andaman",
+    "target": 2,
+    "part": "n",
+    "translation": "अंडमान",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Nicobar",
+    "target": 2,
+    "part": "n",
+    "translation": "निकोबार",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Islands",
+    "target": 2,
+    "part": "n",
+    "translation": "द्वीप",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "waters",
+    "target": "",
+    "part": "n",
+    "translation": "पानी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Ocean",
+    "target": "",
+    "part": "n",
+    "translation": "सागर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "ship",
+    "target": "",
+    "part": "n",
+    "translation": "समुंद्री जहाज",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "water",
+    "target": "",
+    "part": "n",
+    "translation": "पानी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "friends",
+    "target": "",
+    "part": "n",
+    "translation": "दोस्त",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "fins",
+    "target": "",
+    "part": "n",
+    "translation": "पंख",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "safety",
+    "target": "",
+    "part": "n",
+    "translation": "सुरक्षा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "lightning",
+    "target": "",
+    "part": "n",
+    "translation": "आकाशीय बिजली",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "sound",
+    "target": "",
+    "part": "n",
+    "translation": "ध्वनि",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "bearings",
+    "target": "",
+    "part": "n",
+    "translation": "बीयरिंग",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "wave",
+    "target": "",
+    "part": "n",
+    "translation": "लहर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Aaah",
+    "target": "",
+    "part": "n",
+    "translation": "आह",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "cut",
+    "target": "",
+    "part": "n",
+    "translation": "कट गया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "wound",
+    "target": "",
+    "part": "n",
+    "translation": "घाव",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "heart",
+    "target": "",
+    "part": "n",
+    "translation": "दिल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "meters",
+    "target": "",
+    "part": "n",
+    "translation": "मीटर की दूरी पर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "kilograms",
+    "target": "",
+    "part": "n",
+    "translation": "किलोग्राम",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "hospital",
+    "target": "",
+    "part": "n",
+    "translation": "अस्पताल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "life",
+    "target": "",
+    "part": "n",
+    "translation": "जिंदगी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "joy",
+    "target": "",
+    "part": "n",
+    "translation": "हर्ष",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "nature",
+    "target": "",
+    "part": "n",
+    "translation": "प्रकृति",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "school",
+    "target": "",
+    "part": "n",
+    "translation": "स्कूल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "times",
+    "target": "",
+    "part": "n",
+    "translation": "बार",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "nurses",
+    "target": "",
+    "part": "n",
+    "translation": "नर्सों",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "gash",
+    "target": "",
+    "part": "n",
+    "translation": "पाछ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "pieces",
+    "target": "",
+    "part": "n",
+    "translation": "टुकड़े",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "skin",
+    "target": "",
+    "part": "n",
+    "translation": "त्वचा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "species",
+    "target": "",
+    "part": "n",
+    "translation": "जाति",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "was",
+    "target": "",
+    "part": "v",
+    "translation": "था",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "feeling",
+    "target": "",
+    "part": "v",
+    "translation": "अनुभूति",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "were",
+    "target": "",
+    "part": "v",
+    "translation": "थे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "had",
+    "target": "",
+    "part": "v",
+    "translation": "था",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "jumped",
+    "target": "",
+    "part": "v",
+    "translation": "कूद गया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "saw",
+    "target": "",
+    "part": "v",
+    "translation": "देखा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "taken",
+    "target": "",
+    "part": "v",
+    "translation": "लिया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tried",
+    "target": "",
+    "part": "v",
+    "translation": "कोशिश की",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "swim",
+    "target": "",
+    "part": "v",
+    "translation": "तैरना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "lost",
+    "target": "",
+    "part": "v",
+    "translation": "खो गया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "gone",
+    "target": "",
+    "part": "v",
+    "translation": "गया हुआ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "knew",
+    "target": "",
+    "part": "v",
+    "translation": "जानता था",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "do",
+    "target": "",
+    "part": "v",
+    "translation": "करना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "find",
+    "target": "",
+    "part": "v",
+    "translation": "खोज",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "needed",
+    "target": "",
+    "part": "v",
+    "translation": "जरूरत है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "be",
+    "target": "",
+    "part": "v",
+    "translation": "होना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "could",
+    "target": "",
+    "part": "v",
+    "translation": "सकता है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "beat",
+    "target": "",
+    "part": "v",
+    "translation": "हराना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "wished",
+    "target": "",
+    "part": "v",
+    "translation": "कामना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "weighing",
+    "target": "",
+    "part": "v",
+    "translation": "वजन",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "get",
+    "target": "",
+    "part": "v",
+    "translation": "प्राप्त",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "depended",
+    "target": "",
+    "part": "v",
+    "translation": "निर्भर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "reached",
+    "target": "",
+    "part": "v",
+    "translation": "पहुंच गए",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "ate",
+    "target": "",
+    "part": "v",
+    "translation": "खाया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "torn",
+    "target": "",
+    "part": "v",
+    "translation": "फटा हुआ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "felt",
+    "target": "",
+    "part": "v",
+    "translation": "महसूस किया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "loved",
+    "target": "",
+    "part": "v",
+    "translation": "प्यार किया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "sad",
+    "target": "",
+    "part": "dj",
+    "translation": "उदास",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "beautiful",
+    "target": "",
+    "part": "dj",
+    "translation": "सुंदर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Indian",
+    "target": "",
+    "part": "dj",
+    "translation": "भारतीय",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "next",
+    "target": "",
+    "part": "dj",
+    "translation": "आगे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "dark",
+    "target": "",
+    "part": "dj",
+    "translation": "अंधेरा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "big",
+    "target": "",
+    "part": "dj",
+    "translation": "बड़े",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "same",
+    "target": "",
+    "part": "dj",
+    "translation": "वही",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "other",
+    "target": "",
+    "part": "dj",
+    "translation": "अन्य",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "deep",
+    "target": "",
+    "part": "dj",
+    "translation": "गहरा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "cleaner",
+    "target": "",
+    "part": "dj",
+    "translation": "सफाई वाला",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "better",
+    "target": "",
+    "part": "dj",
+    "translation": "बेहतर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Just",
+    "target": "",
+    "part": "dv",
+    "translation": "केवल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "ago",
+    "target": "",
+    "part": "dv",
+    "translation": "पूर्व",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "far",
+    "target": "",
+    "part": "dv",
+    "translation": "दूर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "How",
+    "target": "",
+    "part": "dv",
+    "translation": "किस तरह",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "When",
+    "target": "",
+    "part": "dv",
+    "translation": "कब",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "ahead",
+    "target": "",
+    "part": "dv",
+    "translation": "आगे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "directly",
+    "target": "",
+    "part": "dv",
+    "translation": "सीधे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "first",
+    "target": "",
+    "part": "dv",
+    "translation": "प्रथम",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "fast",
+    "target": "",
+    "part": "dv",
+    "translation": "तेज",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "not",
+    "target": "",
+    "part": "dv",
+    "translation": "नहीं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "so",
+    "target": "",
+    "part": "dv",
+    "translation": "इसलिए",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "long",
+    "target": "",
+    "part": "dv",
+    "translation": "लंबा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Then",
+    "target": "",
+    "part": "dv",
+    "translation": "फिर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "immediately",
+    "target": "",
+    "part": "dv",
+    "translation": "हाथोंहाथ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "now",
+    "target": "",
+    "part": "dv",
+    "translation": "अभी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Soon",
+    "target": "",
+    "part": "dv",
+    "translation": "जल्द ही",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "much",
+    "target": "",
+    "part": "dv",
+    "translation": "बहुत",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "of",
+    "target": "",
+    "part": "p",
+    "translation": "का",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "on",
+    "target": "",
+    "part": "p",
+    "translation": "पर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "from",
+    "target": "",
+    "part": "p",
+    "translation": "से",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "out",
+    "target": "",
+    "part": "p",
+    "translation": "बाहर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "in",
+    "target": "",
+    "part": "p",
+    "translation": "में",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "for",
+    "target": "",
+    "part": "p",
+    "translation": "के लिये",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "under",
+    "target": "",
+    "part": "p",
+    "translation": "के अंतर्गत",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "as",
+    "target": "",
+    "part": "p",
+    "translation": "जैसा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "towards",
+    "target": "",
+    "part": "p",
+    "translation": "की ओर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "over",
+    "target": "",
+    "part": "p",
+    "translation": "ऊपर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "with",
+    "target": "",
+    "part": "p",
+    "translation": "साथ में",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "around",
+    "target": "",
+    "part": "p",
+    "translation": "चारों ओर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "that",
+    "target": "",
+    "part": "p",
+    "translation": "उस",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "at",
+    "target": "",
+    "part": "p",
+    "translation": "पर",
+    "start": "",
+    "end": "",
+    "text": ""
+  }
+]
