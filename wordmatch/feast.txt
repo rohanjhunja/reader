@@ -1,0 +1,812 @@
+[
+  {
+    "word": "a",
+    "target": "",
+    "part": "",
+    "translation": "ए",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "i",
+    "target": "",
+    "part": "",
+    "translation": "मैं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "is",
+    "target": "",
+    "part": "v",
+    "translation": "है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "in",
+    "target": "",
+    "part": "p",
+    "translation": "में",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "an",
+    "target": "",
+    "part": "",
+    "translation": "एक",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "me",
+    "target": "",
+    "part": "",
+    "translation": "मुझे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "to",
+    "target": "",
+    "part": "",
+    "translation": "सेवा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Caw",
+    "target": "",
+    "part": "n",
+    "translation": "कांव-कांव",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tea",
+    "target": "",
+    "part": "n",
+    "translation": "चाय",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "box",
+    "target": "",
+    "part": "n",
+    "translation": "डिब्बा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Can",
+    "target": "",
+    "part": "v",
+    "translation": "कर सकते हैं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Did",
+    "target": "",
+    "part": "v",
+    "translation": "किया",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "big",
+    "target": "",
+    "part": "dj",
+    "translation": "बड़े",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "for",
+    "target": "",
+    "part": "p",
+    "translation": "के लिये",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "and",
+    "target": "",
+    "part": "",
+    "translation": "तथा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "any",
+    "target": "",
+    "part": "",
+    "translation": "कोई भी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "her",
+    "target": "",
+    "part": "",
+    "translation": "उसके",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "how",
+    "target": "",
+    "part": "",
+    "translation": "किस तरह",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "she",
+    "target": "",
+    "part": "",
+    "translation": "वह",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "the",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "two",
+    "target": "",
+    "part": "",
+    "translation": "दो",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "you",
+    "target": "",
+    "part": "",
+    "translation": "आप",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Meow",
+    "target": "",
+    "part": "n",
+    "translation": "मियांउ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Woof",
+    "target": "",
+    "part": "n",
+    "translation": "Woof",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "rice",
+    "target": "",
+    "part": "n",
+    "translation": "चावल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "cats",
+    "target": "",
+    "part": "n",
+    "translation": "बिल्ली की",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "shop",
+    "target": "",
+    "part": "n",
+    "translation": "दुकान",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "fish",
+    "target": "",
+    "part": "n",
+    "translation": "मछली",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "dogs",
+    "target": "",
+    "part": "n",
+    "translation": "कुत्ते",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "walk",
+    "target": "",
+    "part": "n",
+    "translation": "टहल लो",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "hops",
+    "target": "",
+    "part": "v",
+    "translation": "हॉप्स",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "goes",
+    "target": "",
+    "part": "v",
+    "translation": "जाता है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "stop",
+    "target": "",
+    "part": "v",
+    "translation": "रुकें",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "have",
+    "target": "",
+    "part": "v",
+    "translation": "है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "take",
+    "target": "",
+    "part": "v",
+    "translation": "लेना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "hope",
+    "target": "",
+    "part": "v",
+    "translation": "आशा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "kept",
+    "target": "",
+    "part": "v",
+    "translation": "रखा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "save",
+    "target": "",
+    "part": "v",
+    "translation": "सहेजें",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "left",
+    "target": "",
+    "part": "v",
+    "translation": "बाएं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "many",
+    "target": "",
+    "part": "dj",
+    "translation": "अनेक",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "five",
+    "target": "",
+    "part": "",
+    "translation": "पांच",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "four",
+    "target": "",
+    "part": "",
+    "translation": "चार",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "some",
+    "target": "",
+    "part": "",
+    "translation": "कुछ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "what",
+    "target": "",
+    "part": "",
+    "translation": "क्या",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "feast",
+    "target": "",
+    "part": "n",
+    "translation": "दावत",
+    "start": "",
+    "end": "",
+    "text": "Farida plans a feast"
+  },
+  {
+    "word": "leaps",
+    "target": "",
+    "part": "v",
+    "translation": "छलांग",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Cheep",
+    "target": "",
+    "part": "n",
+    "translation": "भिनभिनाना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "beach",
+    "target": "",
+    "part": "n",
+    "translation": "समुद्र तट",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Sippy",
+    "target": "",
+    "part": "n",
+    "translation": "सिप्पी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "jumps",
+    "target": "",
+    "part": "n",
+    "translation": "कूदता",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "water",
+    "target": "",
+    "part": "n",
+    "translation": "पानी",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "First",
+    "target": "",
+    "part": "n",
+    "translation": "प्रथम",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "today",
+    "target": "",
+    "part": "n",
+    "translation": "आज",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "stall",
+    "target": "",
+    "part": "n",
+    "translation": "दुकान",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "crows",
+    "target": "",
+    "part": "n",
+    "translation": "कौवे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "bowls",
+    "target": "",
+    "part": "v",
+    "translation": "कटोरे",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "plans",
+    "target": "",
+    "part": "v",
+    "translation": "योजनाओं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "takes",
+    "target": "",
+    "part": "v",
+    "translation": "लेता है",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "until",
+    "target": "",
+    "part": "p",
+    "translation": "जब तक",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "every",
+    "target": "",
+    "part": "",
+    "translation": "प्रत्येक",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "there",
+    "target": "",
+    "part": "",
+    "translation": "वहाँ",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "three",
+    "target": "",
+    "part": "",
+    "translation": "तीन",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Farida",
+    "target": "",
+    "part": "n",
+    "translation": "फरीदा",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tiffin",
+    "target": "",
+    "part": "n",
+    "translation": "टिफिन",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Author",
+    "target": "",
+    "part": "n",
+    "translation": "लेखक",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Snacks",
+    "target": "",
+    "part": "n",
+    "translation": "स्नैक्स",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "bottle",
+    "target": "",
+    "part": "n",
+    "translation": "बोतल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "please",
+    "target": "",
+    "part": "v",
+    "translation": "कृप्या",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "Smelly",
+    "target": "",
+    "part": "dj",
+    "translation": "बदबूदार",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "kitchen",
+    "target": "",
+    "part": "n",
+    "translation": "रसोई",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "nothing",
+    "target": "",
+    "part": "n",
+    "translation": "कुछ भी तो नहीं",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "evening",
+    "target": "",
+    "part": "n",
+    "translation": "शाम",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "planning",
+    "target": "",
+    "part": "v",
+    "translation": "योजना",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tomatoes",
+    "target": "",
+    "part": "n",
+    "translation": "टमाटर",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "biscuits",
+    "target": "",
+    "part": "n",
+    "translation": "बिस्कुट",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "sparrows",
+    "target": "",
+    "part": "n",
+    "translation": "गौरैयों",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "tomorrow",
+    "target": "",
+    "part": "n",
+    "translation": "आने वाला कल",
+    "start": "",
+    "end": "",
+    "text": ""
+  },
+  {
+    "word": "meal",
+    "target": 1,
+    "part": "n",
+    "translation": "भोजन",
+    "start": 122,
+    "end": 128,
+    "text": "<span>The</span> <span>cats</span> <span>eat</span> <span>a</span> <span>meal</span> <span>of</span> <span>smelly</span> <span>fish</span>."
+  },
+  {
+    "word": "skips",
+    "target": 1,
+    "part": "v",
+    "translation": "छलांग",
+    "start": 59,
+    "end": 60.5,
+    "text": "<span>Farida</span> <span>skips</span> <span>to</span> <span>the</span> <span>tea</span> <span>stall</span>."
+  },
+  {
+    "word": "snack",
+    "target": 1,
+    "part": "n",
+    "translation": "नाश्ता",
+    "start": 129,
+    "end": 135,
+    "text": "<span>The</span> <span>dogs</span> <span>have</span> <span>a</span> <span>snack</span> <span>of</span> <span>broken</span> <span>biscuits</span>."
+  },
+  {
+    "word": "empty",
+    "target": 1,
+    "part": "dv",
+    "translation": "खाली",
+    "start": 150,
+    "end": 153,
+    "text": "<span>There</span> <span>is</span> <span>nothing</span> <span>left</span> <span>in</span> <span>the</span> <span>tiffin</span> <span>box</span>.</span> <span>It</span> <span>is</span> <span>empty</span>."
+  },
+  {
+    "word": "potter",
+    "target": 1,
+    "part": "n",
+    "translation": "कुम्हार",
+    "start": 84,
+    "end": 90,
+    "text": "<span>Farida</span> <span>goes</span> <span>to</span> <span>the</span> <span>potter</span>."
+  },
+  {
+    "word": "Treats",
+    "target": 1,
+    "part": "n",
+    "translation": "खास खाना",
+    "start": 135,
+    "end": 142,
+    "text": "<span>The</span> <span>crows</span> <span>get</span> <span>treats</span> <span>of</span> <span>rotten</span> <span>tomatoes</span>."
+  },
+  {
+    "word": "broken",
+    "target": 1,
+    "part": "dj",
+    "translation": "टूटा हुआ",
+    "start": 64,
+    "end": 70,
+    "text": "<span>Farida</span> <span>asks</span> <span>for</span> <span>broken</span> <span>biscuits</span> <span>at</span> <span>the</span> <span>tea</span> <span>stall</span>."
+  },
+  {
+    "word": "dinner",
+    "target": 1,
+    "part": "n",
+    "translation": "रात का खाना",
+    "start": 143,
+    "end": 148,
+    "text": "<span>The</span> <span>sparrows</span> <span>have</span> <span>rice</span> <span>for</span> <span>dinner</span>."
+  },
+  {
+    "word": "chipped",
+    "target": 1,
+    "part": "dv",
+    "translation": "टूटा हुआ",
+    "start": 90.5,
+    "end": 98,
+    "text": "<span>Farida</span> <span>asks</span> <span>the</span> <span>potter</span> <span>for</span> <span>chipped</span> <span>bowls</span>."
+  },
+  {
+    "word": "uncooked",
+    "target": 1,
+    "part": "dj",
+    "translation": "कच्चा",
+    "start": 38,
+    "end": 44,
+    "text": "“<span>Can</span> <span>I</span> <span>have</span> <span>some</span> <span>uncooked</span> <span>rice</span>, <span>please?”</span> <span>asks</span> <span>Farida</span>."
+  },
+  {
+    "word": "squashed",
+    "target": 1,
+    "part": "dj",
+    "translation": "कुचल",
+    "start": 52,
+    "end": 57,
+    "text": "<span>Farida</span> <span>asks</span> <span>for</span> <span>squashed</span> <span>tomatoes</span> <span>at</span> <span>the</span> <span>vegetable</span> <span>cart</span>."
+  },
+  {
+    "word": "smelliest",
+    "target": 1,
+    "part": "dj",
+    "translation": "सबसे बदबूदार",
+    "start": 74.5,
+    "end": 83,
+    "text": "“<span>I</span> <span>hope</span> <span>you</span> <span>kept</span> <span>the</span> <span>smelliest</span> <span>fish</span> <span>for</span> <span>me!”</span> <span>says</span> <span>Farida</span>."
+  },
+  {
+    "word": "tiffin-box",
+    "target": 1,
+    "part": "n",
+    "translation": "टिफिन बॉक्स",
+    "start": 25,
+    "end": 33,
+    "text": "<span>Farida</span> <span>takes</span> <span>a</span> <span>tiffin-box</span> <span>and</span> <span>a</span> <span>big</span> <span>water</span> <span>bottle</span>."
+  }
+]
