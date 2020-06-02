@@ -225,15 +225,6 @@
     "text": ""
   },
   {
-    "word": "rays",
-    "target": "",
-    "part": "n",
-    "translation": "रे",
-    "start": "",
-    "end": "",
-    "text": ""
-  },
-  {
     "word": "tons",
     "target": "",
     "part": "n",
@@ -544,15 +535,6 @@
     "target": "",
     "part": "n",
     "translation": "समूह",
-    "start": "",
-    "end": "",
-    "text": ""
-  },
-  {
-    "word": "manta",
-    "target": "",
-    "part": "n",
-    "translation": "मैंटा",
     "start": "",
     "end": "",
     "text": ""
@@ -1014,7 +996,7 @@
     "translation": "मैंटा रे",
     "start": 29,
     "end": 37,
-    "text": "<span>A</span> <span>group</span> <span>of</span> <span>manta</span> <span>rays</span> <span>are</span> <span>feasting</span> <span>on</span> <span>fish</span>."
+    "text": "<span>A</span> <span>group</span> <span>of</span> <span>manta rays</span> <span>are</span> <span>feasting</span> <span>on</span> <span>fish</span>."
   },
   {
     "word": "streak",
@@ -1058,8 +1040,8 @@
     "part": "n",
     "translation": "तट",
     "start": 112,
-    "end": 117,
-    "text": "<span>He</span> <span>swam</span> <span>towards</span> <span>the</span> <span>coast</span>."
+    "end": 116.5,
+    "text": "<span>Pishi</span> <span>swam</span> <span>towards</span> <span>the</span> <span>coast</span>."
   },
   {
     "word": "scattered",
@@ -1086,7 +1068,7 @@
     "translation": "छिड़क",
     "start": 44,
     "end": 48,
-    "text": "<span>The</span> <span>manta</span> <span>rays</span> <span>splashed</span> <span>and</span> <span>jumped</span> <span>out</span> <span>of</span> <span>the</span> <span>waters"
+    "text": "<span>The</span> <span>manta rays</span> <span>splashed</span> <span>and</span> <span>jumped</span> <span>out</span> <span>of</span> <span>the</span> <span>waters"
   },
   {
     "word": "flapped",
@@ -1167,7 +1149,7 @@
     "translation": "विशाल",
     "start": 125,
     "end": 130,
-    "text": "<span>Pishi</span> <span>is</span> <span>a</span> <span>huge</span> <span>manta</span> <span>ray</span>."
+    "text": "<span>Pishi</span> <span>is</span> <span>a</span> <span>huge</span> <span>manta ray</span>."
   },
   {
     "word": "thunder",
@@ -1176,6 +1158,6 @@
     "translation": "बिजली",
     "start": 75,
     "end": 79,
-    "text": "<span>There</span> <span>was</span> <span>a</span> <span>streak</span> <span>of</span> <span>lightning</span> <span>and</span> <span>the</span> <span>sound</span> <span>of</span> <span>thunder</span>."
+    "text": "<span>There</span> <span>was</span> <span>a</span> <span>sound</span> <span>of</span> <span>thunder</span>."
   }
 ]
