@@ -1230,7 +1230,7 @@
     "translation": "केले विक्रेता",
     "start": 56,
     "end": 63,
-    "text": "<span>The</span> <span>banana-seller</span> <span>brought</span> <span>some</span> <span>bananas</span> <span>for</span> <span>Gajapati</span> <span>Kulapati."
+    "text": "<span>The</span> <span>banana-seller</span> <span>brought</span> <span>some</span> <span>bananas</span> <span>for</span> <span>Gajapati</span> <span>Kulapati.</span>"
   },
   {
     "word": "postman",
@@ -1239,7 +1239,7 @@
     "translation": "डाकिया",
     "start": 80,
     "end": 86,
-    "text": "<span>Bananas</span> <span>fell</span> <span>on</span> <span>the</span> <span>postman's</span> <span>head."
+    "text": "<span>Bananas</span> <span>fell</span> <span>on</span> <span>the</span> <span>postman's</span> <span>head.</span>"
   },
   {
     "word": "thunder",
@@ -1248,7 +1248,7 @@
     "translation": "बिजली",
     "start": 230,
     "end": 233,
-    "text": "<span>The</span> <span>thunder</span> <span>was</span> <span>loud."
+    "text": "<span>The</span> <span>thunder</span> <span>was</span> <span>loud.</span>"
   },
   {
     "word": "pat",
@@ -1257,7 +1257,7 @@
     "translation": "थपथपाना",
     "start": 276,
     "end": 281,
-    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant."
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.</span>"
   },
   {
     "word": "rained",
@@ -1266,7 +1266,7 @@
     "translation": "बारिश",
     "start": 24,
     "end": 30,
-    "text": "<span>One</span> <span>night</span> <span>it</span> <span>rained</span> <span>and</span> <span>Gajapati</span> <span>Kulapati</span> <span>got</span> <span>wet."
+    "text": "<span>One</span> <span>night</span> <span>it</span> <span>rained</span> <span>and</span> <span>Gajapati</span> <span>Kulapati</span> <span>got</span> <span>wet.</span>"
   },
   {
     "word": "hid",
@@ -1275,7 +1275,7 @@
     "translation": "hid",
     "start": 158,
     "end": 163,
-    "text": "<span>Gajapati</span> <span>Kulapati</span> <span>hid</span> <span>behind</span> <span>the</span> <span>temple</span> <span>wall."
+    "text": "<span>Gajapati</span> <span>Kulapati</span> <span>hid</span> <span>behind</span> <span>the</span> <span>temple</span> <span>wall.</span>"
   },
   {
     "word": "shouted",
@@ -1284,7 +1284,7 @@
     "translation": "चिल्लाया",
     "start": 207,
     "end": 212,
-    "text": "<span>I</span> <span>KNOW</span> <span>Gajapati</span> <span>Kulapati</span> <span>has</span> <span>a</span> <span>cold</span>!\" <span>shouted</span> <span>the</span> <span>postman."
+    "text": "<span>I</span> <span>KNOW</span> <span>Gajapati</span> <span>Kulapati</span> <span>has</span> <span>a</span> <span>cold</span>!\" <span>shouted</span> <span>the</span> <span>postman.</span>"
   },
   {
     "word": "shook",
@@ -1293,7 +1293,7 @@
     "translation": "हिलाकर रख दिया",
     "start": 256,
     "end": 262,
-    "text": "<span>Everyone</span> <span>shook</span> <span>their</span> <span>heads</span> <span>and</span> <span>went</span> <span>back</span> <span>to</span> <span>sleep."
+    "text": "<span>Everyone</span> <span>shook</span> <span>their</span> <span>heads</span> <span>and</span> <span>went</span> <span>back</span> <span>to</span> <span>sleep.</span>"
   },
   {
     "word": "gathered",
@@ -1302,7 +1302,7 @@
     "translation": "इकट्ठा",
     "start": 276,
     "end": 281,
-    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant."
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.</span>"
   },
   {
     "word": "bright",
@@ -1311,7 +1311,7 @@
     "translation": "उज्ज्वल",
     "start": 271,
     "end": 276,
-    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful."
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.</span>"
   },
   {
     "word": "cheerful",
@@ -1320,7 +1320,7 @@
     "translation": "हंसमुख",
     "start": 271,
     "end": 276,
-    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful."
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.</span>"
   },
   {
     "word": "louder",
@@ -1329,7 +1329,7 @@
     "translation": "जोर",
     "start": 215,
     "end": 219,
-    "text": "<span>That</span> <span>night</span> <span>a</span> <span>sound</span> <span>woke</span> <span>everyone</span> <span>up.</span> <span>It</span> <span>got</span> <span>louder</span> <span>and</span> <span>louder."
+    "text": "<span>That</span> <span>night</span> <span>a</span> <span>sound</span> <span>woke</span> <span>everyone</span> <span>up.</span></span> <span>It</span> <span>got</span> <span>louder</span> <span>and</span> <span>louder.</span>"
   },
   {
     "word": "cold",
@@ -1338,6 +1338,6 @@
     "translation": "सर्दी",
     "start": 240,
     "end": 245,
-    "text": "<span>The</span> <span>elephant</span> <span>has</span> <span>a</span> <span>cold."
+    "text": "<span>The</span> <span>elephant</span> <span>has</span> <span>a</span> <span>cold.</span>"
   }
 ]
