@@ -1571,7 +1571,7 @@
     "part": "n",
     "translation": "किरणे",
     "start": 270,
-    "end": 283,
+    "end": 273,
     "text": "<span>The</span> <span>Sun</span> <span>stretched</span> <span>his</span> <span>rays</span>."
   },
   {
@@ -1585,7 +1585,7 @@
   },
   {
     "word": "shrugged",
-    "target": 1,
+    "target": "",
     "part": "v",
     "translation": "उचकाना",
     "start": 47,
@@ -1653,7 +1653,7 @@
     "translation": "शक्तिशाली",
     "start": 53,
     "end": 58,
-    "text": "<span>That</span> <span>doesn't</span> <span>mean</span> <span>you're</span> <span>more</span> <span>powerful,</span>\" <span>the</span> <span>Sun</span> <span>said</span>."
+    "text": "\\\"<span>That</span> <span>doesn't</span> <span>mean</span> <span>you're</span> <span>more</span> <span>powerful</span>,\" <span>said</span> <span>the</span> <span>Sun</span>."
   },
   {
     "word": "proudly",
@@ -1662,7 +1662,7 @@
     "translation": "घमंड के साथ",
     "start": 39,
     "end": 47,
-    "text": "<span>You</span> <span>can't</span> <span>do</span> <span>either</span> <span>of</span> <span>those</span> <span>things,</span>\" <span>said</span> <span>the</span> <span>Wind</span> <span>proudly</span>."
+    "text": "\\\"<span>You</span> <span>can't</span> <span>do</span> <span>either</span> <span>of</span> <span>those</span> <span>things,</span>\" <span>said</span> <span>the</span> <span>Wind</span> <span>proudly</span>."
   },
   {
     "word": "calmly",
@@ -1671,7 +1671,7 @@
     "translation": "शांति से",
     "start": 86,
     "end": 90,
-    "text": "<span>I'm</span> <span>stronger</span> <span>than</span> <span>you,</span>\" <span>he</span> <span>said</span> <span>calmly</span>."
+    "text": "\\\"<span>I'm</span> <span>stronger</span> <span>than</span> <span>you</span>,\" <span>he</span> <span>said</span> <span>calmly</span>."
   },
   {
     "word": "cover",
@@ -1687,8 +1687,8 @@
     "target": 1,
     "part": "dj",
     "translation": "उज्जवल",
-    "start": 283,
-    "end": 288,
+    "start": 273,
+    "end": 278,
     "text": "<span>The</span> <span>Sun</span> <span>seemed</span> <span>to</span> <span>grow</span> <span>brighter</span> <span>and</span> <span>bigger</span> <span>in</span> <span>the</span> <span>sky</span>."
   },
   {
