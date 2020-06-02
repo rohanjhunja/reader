@@ -1,0 +1,1542 @@
+[
+  {
+    "word": "a",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 1
+  },
+  {
+    "word": "i",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 1
+  },
+  {
+    "word": "Do",
+    "target": "",
+    "part": "v",
+    "translation": "करना",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "as",
+    "target": "",
+    "part": "dv",
+    "translation": "जैसा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "So",
+    "target": "",
+    "part": "dv",
+    "translation": "इसलिए",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "in",
+    "target": "",
+    "part": "p",
+    "translation": "में",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "on",
+    "target": "",
+    "part": "p",
+    "translation": "पर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "by",
+    "target": "",
+    "part": "p",
+    "translation": "द्वारा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "of",
+    "target": "",
+    "part": "p",
+    "translation": "का",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "he",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "it",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "to",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "up",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 2
+  },
+  {
+    "word": "cow",
+    "target": "",
+    "part": "n",
+    "translation": "गाय",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "The",
+    "target": "",
+    "part": "n",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "day",
+    "target": "",
+    "part": "n",
+    "translation": "दिन",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "air",
+    "target": "",
+    "part": "n",
+    "translation": "वायु",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "dog",
+    "target": "",
+    "part": "n",
+    "translation": "कुत्ता",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "sky",
+    "target": "",
+    "part": "n",
+    "translation": "आकाश",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "was",
+    "target": "",
+    "part": "v",
+    "translation": "था",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "has",
+    "target": "",
+    "part": "v",
+    "translation": "है",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "ran",
+    "target": "",
+    "part": "v",
+    "translation": "भाग गया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "got",
+    "target": "",
+    "part": "v",
+    "translation": "गॉट",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "had",
+    "target": "",
+    "part": "v",
+    "translation": "था",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "did",
+    "target": "",
+    "part": "v",
+    "translation": "किया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "say",
+    "target": "",
+    "part": "v",
+    "translation": "कहते हैं",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "Let",
+    "target": "",
+    "part": "v",
+    "translation": "चलो",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "get",
+    "target": "",
+    "part": "v",
+    "translation": "प्राप्त",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "wet",
+    "target": "",
+    "part": "dj",
+    "translation": "भीगा हुआ",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "sad",
+    "target": "",
+    "part": "dj",
+    "translation": "उदास",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "big",
+    "target": "",
+    "part": "dj",
+    "translation": "बड़े",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "old",
+    "target": "",
+    "part": "dj",
+    "translation": "पुराना",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "n't",
+    "target": "",
+    "part": "dv",
+    "translation": "नहीं",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "now",
+    "target": "",
+    "part": "dv",
+    "translation": "अभी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "out",
+    "target": "",
+    "part": "p",
+    "translation": "बाहर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "for",
+    "target": "",
+    "part": "p",
+    "translation": "के लिये",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "all",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "and",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "but",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "her",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "him",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "his",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "not",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "one",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "she",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "you",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 3
+  },
+  {
+    "word": "hurt",
+    "target": "",
+    "part": "v",
+    "translation": "चोट",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "woke",
+    "target": "",
+    "part": "v",
+    "translation": "उठा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "Aaaa",
+    "target": "",
+    "part": "n",
+    "translation": "aaaa",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "lion",
+    "target": "",
+    "part": "n",
+    "translation": "सिंह",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "nose",
+    "target": "",
+    "part": "n",
+    "translation": "नाक",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "tail",
+    "target": "",
+    "part": "n",
+    "translation": "पूंछ",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "head",
+    "target": "",
+    "part": "n",
+    "translation": "सिर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "wall",
+    "target": "",
+    "part": "n",
+    "translation": "दीवार",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "rain",
+    "target": "",
+    "part": "n",
+    "translation": "बारिश",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "said",
+    "target": "",
+    "part": "v",
+    "translation": "कहा हुआ",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "want",
+    "target": "",
+    "part": "v",
+    "translation": "चाहते हैं",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "fell",
+    "target": "",
+    "part": "v",
+    "translation": "गिर गया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "felt",
+    "target": "",
+    "part": "v",
+    "translation": "महसूस किया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "flew",
+    "target": "",
+    "part": "v",
+    "translation": "उड़ान भरी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "like",
+    "target": "",
+    "part": "v",
+    "translation": "पसंद",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "knew",
+    "target": "",
+    "part": "v",
+    "translation": "जानता था",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "KNOW",
+    "target": "",
+    "part": "v",
+    "translation": "जानना",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "went",
+    "target": "",
+    "part": "v",
+    "translation": "चला गया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "came",
+    "target": "",
+    "part": "v",
+    "translation": "आया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "does",
+    "target": "",
+    "part": "v",
+    "translation": "कर देता है",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "loud",
+    "target": "",
+    "part": "dj",
+    "translation": "जोर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "Next",
+    "target": "",
+    "part": "dj",
+    "translation": "आगे",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "wise",
+    "target": "",
+    "part": "dj",
+    "translation": "बुद्धिमान",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "very",
+    "target": "",
+    "part": "dv",
+    "translation": "बहुत",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "fast",
+    "target": "",
+    "part": "dv",
+    "translation": "तेज",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "When",
+    "target": "",
+    "part": "dv",
+    "translation": "कब",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "back",
+    "target": "",
+    "part": "dv",
+    "translation": "वापस",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "Then",
+    "target": "",
+    "part": "dv",
+    "translation": "फिर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "with",
+    "target": "",
+    "part": "p",
+    "translation": "साथ में",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "From",
+    "target": "",
+    "part": "p",
+    "translation": "से",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "cold",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "down",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "some",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "that",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "they",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 4
+  },
+  {
+    "word": "Ashok",
+    "target": 2,
+    "part": "n",
+    "translation": "अशोक",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "noses",
+    "target": "",
+    "part": "n",
+    "translation": "नाक",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "noise",
+    "target": "",
+    "part": "n",
+    "translation": "शोर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "night",
+    "target": "",
+    "part": "n",
+    "translation": "रात",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "colds",
+    "target": "",
+    "part": "n",
+    "translation": "जुकाम",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "mouth",
+    "target": "",
+    "part": "n",
+    "translation": "मुंह",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "hands",
+    "target": "",
+    "part": "n",
+    "translation": "हाथ",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "heads",
+    "target": "",
+    "part": "n",
+    "translation": "सिर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "house",
+    "target": "",
+    "part": "n",
+    "translation": "मकान",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "world",
+    "target": "",
+    "part": "n",
+    "translation": "विश्व",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "could",
+    "target": "",
+    "part": "v",
+    "translation": "सकता है",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "catch",
+    "target": "",
+    "part": "v",
+    "translation": "पकड़",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "heard",
+    "target": "",
+    "part": "v",
+    "translation": "हर्ड",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "asked",
+    "target": "",
+    "part": "v",
+    "translation": "पूछा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "sleep",
+    "target": "",
+    "part": "v",
+    "translation": "नींद",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "build",
+    "target": "",
+    "part": "v",
+    "translation": "निर्माण",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "built",
+    "target": "",
+    "part": "v",
+    "translation": "बनाया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "sorry",
+    "target": "",
+    "part": "dj",
+    "translation": "माफ़ करना",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "Small",
+    "target": "",
+    "part": "dj",
+    "translation": "छोटा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "again",
+    "target": "",
+    "part": "dv",
+    "translation": "फिर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "never",
+    "target": "",
+    "part": "dv",
+    "translation": "कभी नहीँ",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "about",
+    "target": "",
+    "part": "p",
+    "translation": "के बारे में",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "shook",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "their",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "there",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 5
+  },
+  {
+    "word": "gentle",
+    "target": "",
+    "part": "dj",
+    "translation": "सज्जन",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "sneeze",
+    "target": "",
+    "part": "n",
+    "translation": "छींक",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "tailor",
+    "target": "",
+    "part": "n",
+    "translation": "दर्जी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "temple",
+    "target": "",
+    "part": "n",
+    "translation": "मंदिर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "anyone",
+    "target": "",
+    "part": "n",
+    "translation": "किसी को",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "people",
+    "target": "",
+    "part": "n",
+    "translation": "लोग",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "caught",
+    "target": "",
+    "part": "v",
+    "translation": "पकड़े गए",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "opened",
+    "target": "",
+    "part": "v",
+    "translation": "खुल गया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "stayed",
+    "target": "",
+    "part": "v",
+    "translation": "रुके",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "behind",
+    "target": "",
+    "part": "p",
+    "translation": "पीछे",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "around",
+    "target": "",
+    "part": "p",
+    "translation": "चारों ओर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "bright",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "flower",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "seller",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 6
+  },
+  {
+    "word": "milkman",
+    "target": "",
+    "part": "n",
+    "translation": "दूधवाला",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "bananas",
+    "target": "",
+    "part": "n",
+    "translation": "केले",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "Pachaak",
+    "target": "",
+    "part": "n",
+    "translation": "Pachaak",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "Damaaal",
+    "target": "",
+    "part": "n",
+    "translation": "Damaaal",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "friends",
+    "target": "",
+    "part": "n",
+    "translation": "दोस्त",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "village",
+    "target": "",
+    "part": "n",
+    "translation": "गाँव",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "morning",
+    "target": "",
+    "part": "n",
+    "translation": "सुबह",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "falling",
+    "target": "",
+    "part": "v",
+    "translation": "गिर रहा है",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "biggest",
+    "target": "",
+    "part": "dj",
+    "translation": "सबसे बड़ी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 7
+  },
+  {
+    "word": "Gajapati",
+    "target": 2,
+    "part": "n",
+    "translation": "गजपति",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "Kulapati",
+    "target": 2,
+    "part": "n",
+    "translation": "Kulapati",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "Hooooosh",
+    "target": "",
+    "part": "n",
+    "translation": "Hooooosh",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "elephant",
+    "target": "",
+    "part": "n",
+    "translation": "हाथी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "everyone",
+    "target": "",
+    "part": "n",
+    "translation": "हर कोई",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "happiest",
+    "target": "",
+    "part": "dj",
+    "translation": "सबसे खुशी",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "gathered",
+    "target": "",
+    "part": "",
+    "translation": "",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 8
+  },
+  {
+    "word": "Everybody",
+    "target": "",
+    "part": "n",
+    "translation": "हर",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 9
+  },
+  {
+    "word": "disappeared",
+    "target": "",
+    "part": "v",
+    "translation": "गायब हो गया",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 11
+  },
+  {
+    "word": "Rajagopalan",
+    "target": 2,
+    "part": "n",
+    "translation": "राजगोपालन",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 11
+  },
+  {
+    "word": "grandmother",
+    "target": "",
+    "part": "n",
+    "translation": "दादी मा",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 11
+  },
+  {
+    "word": "flower-seller",
+    "target": "",
+    "part": "n",
+    "translation": "फूल विक्रेता",
+    "start": "",
+    "end": "",
+    "text": "",
+    "": 13
+  },
+  {
+    "word": "banana-seller",
+    "target": 1,
+    "part": "n",
+    "translation": "केले विक्रेता",
+    "start": 56,
+    "end": 63,
+    "text": "<span>The</span> <span>banana-seller</span> <span>brought</span> <span>some</span> <span>bananas</span> <span>for</span> <span>Gajapati</span> <span>Kulapati.",
+    "": ""
+  },
+  {
+    "word": "postman",
+    "target": 1,
+    "part": "n",
+    "translation": "डाकिया",
+    "start": 80,
+    "end": 86,
+    "text": "<span>Bananas</span> <span>fell</span> <span>on</span> <span>the</span> <span>postman's</span> <span>head.",
+    "": ""
+  },
+  {
+    "word": "thunder",
+    "target": 1,
+    "part": "n",
+    "translation": "बिजली",
+    "start": 230,
+    "end": 233,
+    "text": "<span>The</span> <span>thunder</span> <span>was</span> <span>loud.",
+    "": ""
+  },
+  {
+    "word": "pat",
+    "target": 1,
+    "part": "v",
+    "translation": "थपथपाना",
+    "start": 276,
+    "end": 281,
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.",
+    "": ""
+  },
+  {
+    "word": "rained",
+    "target": 1,
+    "part": "v",
+    "translation": "बारिश",
+    "start": 24,
+    "end": 30,
+    "text": "<span>One</span> <span>night</span> <span>it</span> <span>rained</span> <span>and</span> <span>Gajapati</span> <span>Kulapati</span> <span>got</span> <span>wet.",
+    "": ""
+  },
+  {
+    "word": "hid",
+    "target": 1,
+    "part": "v",
+    "translation": "hid",
+    "start": 158,
+    "end": 163,
+    "text": "<span>Gajapati</span> <span>Kulapati</span> <span>hid</span> <span>behind</span> <span>the</span> <span>temple</span> <span>wall.",
+    "": ""
+  },
+  {
+    "word": "shouted",
+    "target": 1,
+    "part": "v",
+    "translation": "चिल्लाया",
+    "start": 207,
+    "end": 212,
+    "text": "<span>I</span> <span>KNOW</span> <span>Gajapati</span> <span>Kulapati</span> <span>has</span> <span>a</span> <span>cold</span>!\" <span>shouted</span> <span>the</span> <span>postman.",
+    "": ""
+  },
+  {
+    "word": "shook",
+    "target": 1,
+    "part": "v",
+    "translation": "हिलाकर रख दिया",
+    "start": 256,
+    "end": 262,
+    "text": "<span>Everyone</span> <span>shook</span> <span>their</span> <span>heads</span> <span>and</span> <span>went</span> <span>back</span> <span>to</span> <span>sleep.",
+    "": ""
+  },
+  {
+    "word": "gathered",
+    "target": 1,
+    "part": "v",
+    "translation": "इकट्ठा",
+    "start": 276,
+    "end": 281,
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.",
+    "": "Everyone gathered around to pat him."
+  },
+  {
+    "word": "bright",
+    "target": 1,
+    "part": "dj",
+    "translation": "उज्ज्वल",
+    "start": 271,
+    "end": 276,
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.",
+    "": ""
+  },
+  {
+    "word": "cheerful",
+    "target": 1,
+    "part": "dj",
+    "translation": "हंसमुख",
+    "start": 271,
+    "end": 276,
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.",
+    "": ""
+  },
+  {
+    "word": "louder",
+    "target": 1,
+    "part": "dj",
+    "translation": "जोर",
+    "start": 215,
+    "end": 219,
+    "text": "<span>That</span> <span>night</span> <span>a</span> <span>sound</span> <span>woke</span> <span>everyone</span> <span>up.</span> <span>It</span> <span>got</span> <span>louder</span> <span>and</span> <span>louder.",
+    "": ""
+  },
+  {
+    "word": "cold",
+    "target": 1,
+    "part": "n",
+    "translation": "सर्दी",
+    "start": 240,
+    "end": 245,
+    "text": "<span>The</span> <span>elephant</span> <span>has</span> <span>a</span> <span>cold.",
+    "": ""
+  }
+]
