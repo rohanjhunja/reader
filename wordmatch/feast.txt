@@ -702,13 +702,13 @@
     "text": "<span>The</span> <span>cats</span> <span>eat</span> <span>a</span> <span>meal</span> <span>of</span> <span>smelly</span> <span>fish</span>."
   },
   {
-    "word": "skips",
+    "word": "hops",
     "target": 1,
     "part": "v",
     "translation": "छलांग",
     "start": 59,
     "end": 60.5,
-    "text": "<span>Farida</span> <span>skips</span> <span>to</span> <span>the</span> <span>tea</span> <span>stall</span>."
+    "text": "<span>Farida</span> <span>hops</span> <span>to</span> <span>the</span> <span>tea</span> <span>stall</span>."
   },
   {
     "word": "snack",
@@ -738,7 +738,7 @@
     "text": "<span>Farida</span> <span>goes</span> <span>to</span> <span>the</span> <span>potter</span>."
   },
   {
-    "word": "Treats",
+    "word": "treats",
     "target": 1,
     "part": "n",
     "translation": "खास खाना",
@@ -752,7 +752,7 @@
     "part": "dj",
     "translation": "टूटा हुआ",
     "start": 64,
-    "end": 70,
+    "end": 69,
     "text": "<span>Farida</span> <span>asks</span> <span>for</span> <span>broken</span> <span>biscuits</span> <span>at</span> <span>the</span> <span>tea</span> <span>stall</span>."
   },
   {
@@ -761,7 +761,7 @@
     "part": "n",
     "translation": "रात का खाना",
     "start": 143,
-    "end": 148,
+    "end": 147,
     "text": "<span>The</span> <span>sparrows</span> <span>have</span> <span>rice</span> <span>for</span> <span>dinner</span>."
   },
   {
@@ -770,7 +770,7 @@
     "part": "dv",
     "translation": "टूटा हुआ",
     "start": 90.5,
-    "end": 98,
+    "end": 97,
     "text": "<span>Farida</span> <span>asks</span> <span>the</span> <span>potter</span> <span>for</span> <span>chipped</span> <span>bowls</span>."
   },
   {
