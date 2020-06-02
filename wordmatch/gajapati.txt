@@ -6,8 +6,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 1
+    "text": ""
   },
   {
     "word": "i",
@@ -16,8 +15,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 1
+    "text": ""
   },
   {
     "word": "Do",
@@ -26,8 +24,7 @@
     "translation": "करना",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "as",
@@ -36,8 +33,7 @@
     "translation": "जैसा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "So",
@@ -46,8 +42,7 @@
     "translation": "इसलिए",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "in",
@@ -56,8 +51,7 @@
     "translation": "में",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "on",
@@ -66,8 +60,7 @@
     "translation": "पर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "by",
@@ -76,8 +69,7 @@
     "translation": "द्वारा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "of",
@@ -86,8 +78,7 @@
     "translation": "का",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "he",
@@ -96,8 +87,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "it",
@@ -106,8 +96,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "to",
@@ -116,8 +105,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "up",
@@ -126,8 +114,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 2
+    "text": ""
   },
   {
     "word": "cow",
@@ -136,8 +123,7 @@
     "translation": "गाय",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "The",
@@ -146,8 +132,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "day",
@@ -156,8 +141,7 @@
     "translation": "दिन",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "air",
@@ -166,8 +150,7 @@
     "translation": "वायु",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "dog",
@@ -176,8 +159,7 @@
     "translation": "कुत्ता",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "sky",
@@ -186,8 +168,7 @@
     "translation": "आकाश",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "was",
@@ -196,8 +177,7 @@
     "translation": "था",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "has",
@@ -206,8 +186,7 @@
     "translation": "है",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "ran",
@@ -216,8 +195,7 @@
     "translation": "भाग गया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "got",
@@ -226,8 +204,7 @@
     "translation": "गॉट",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "had",
@@ -236,8 +213,7 @@
     "translation": "था",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "did",
@@ -246,8 +222,7 @@
     "translation": "किया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "say",
@@ -256,8 +231,7 @@
     "translation": "कहते हैं",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "Let",
@@ -266,8 +240,7 @@
     "translation": "चलो",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "get",
@@ -276,8 +249,7 @@
     "translation": "प्राप्त",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "wet",
@@ -286,8 +258,7 @@
     "translation": "भीगा हुआ",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "sad",
@@ -296,8 +267,7 @@
     "translation": "उदास",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "big",
@@ -306,8 +276,7 @@
     "translation": "बड़े",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "old",
@@ -316,8 +285,7 @@
     "translation": "पुराना",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "n't",
@@ -326,8 +294,7 @@
     "translation": "नहीं",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "now",
@@ -336,8 +303,7 @@
     "translation": "अभी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "out",
@@ -346,8 +312,7 @@
     "translation": "बाहर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "for",
@@ -356,8 +321,7 @@
     "translation": "के लिये",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "all",
@@ -366,8 +330,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "and",
@@ -376,8 +339,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "but",
@@ -386,8 +348,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "her",
@@ -396,8 +357,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "him",
@@ -406,8 +366,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "his",
@@ -416,8 +375,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "not",
@@ -426,8 +384,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "one",
@@ -436,8 +393,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "she",
@@ -446,8 +402,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "you",
@@ -456,8 +411,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 3
+    "text": ""
   },
   {
     "word": "hurt",
@@ -466,8 +420,7 @@
     "translation": "चोट",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "woke",
@@ -476,8 +429,7 @@
     "translation": "उठा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "Aaaa",
@@ -486,8 +438,7 @@
     "translation": "aaaa",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "lion",
@@ -496,8 +447,7 @@
     "translation": "सिंह",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "nose",
@@ -506,8 +456,7 @@
     "translation": "नाक",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "tail",
@@ -516,8 +465,7 @@
     "translation": "पूंछ",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "head",
@@ -526,8 +474,7 @@
     "translation": "सिर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "wall",
@@ -536,8 +483,7 @@
     "translation": "दीवार",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "rain",
@@ -546,8 +492,7 @@
     "translation": "बारिश",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "said",
@@ -556,8 +501,7 @@
     "translation": "कहा हुआ",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "want",
@@ -566,8 +510,7 @@
     "translation": "चाहते हैं",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "fell",
@@ -576,8 +519,7 @@
     "translation": "गिर गया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "felt",
@@ -586,8 +528,7 @@
     "translation": "महसूस किया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "flew",
@@ -596,8 +537,7 @@
     "translation": "उड़ान भरी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "like",
@@ -606,8 +546,7 @@
     "translation": "पसंद",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "knew",
@@ -616,8 +555,7 @@
     "translation": "जानता था",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "KNOW",
@@ -626,8 +564,7 @@
     "translation": "जानना",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "went",
@@ -636,8 +573,7 @@
     "translation": "चला गया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "came",
@@ -646,8 +582,7 @@
     "translation": "आया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "does",
@@ -656,8 +591,7 @@
     "translation": "कर देता है",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "loud",
@@ -666,8 +600,7 @@
     "translation": "जोर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "Next",
@@ -676,8 +609,7 @@
     "translation": "आगे",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "wise",
@@ -686,8 +618,7 @@
     "translation": "बुद्धिमान",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "very",
@@ -696,8 +627,7 @@
     "translation": "बहुत",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "fast",
@@ -706,8 +636,7 @@
     "translation": "तेज",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "When",
@@ -716,8 +645,7 @@
     "translation": "कब",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "back",
@@ -726,8 +654,7 @@
     "translation": "वापस",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "Then",
@@ -736,8 +663,7 @@
     "translation": "फिर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "with",
@@ -746,8 +672,7 @@
     "translation": "साथ में",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "From",
@@ -756,18 +681,7 @@
     "translation": "से",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
-  },
-  {
-    "word": "cold",
-    "target": "",
-    "part": "",
-    "translation": "",
-    "start": "",
-    "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "down",
@@ -776,8 +690,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "some",
@@ -786,8 +699,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "that",
@@ -796,8 +708,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "they",
@@ -806,8 +717,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 4
+    "text": ""
   },
   {
     "word": "Ashok",
@@ -816,8 +726,7 @@
     "translation": "अशोक",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "noses",
@@ -826,8 +735,7 @@
     "translation": "नाक",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "noise",
@@ -836,8 +744,7 @@
     "translation": "शोर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "night",
@@ -846,8 +753,7 @@
     "translation": "रात",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "colds",
@@ -856,8 +762,7 @@
     "translation": "जुकाम",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "mouth",
@@ -866,8 +771,7 @@
     "translation": "मुंह",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "hands",
@@ -876,8 +780,7 @@
     "translation": "हाथ",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "heads",
@@ -886,8 +789,7 @@
     "translation": "सिर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "house",
@@ -896,8 +798,7 @@
     "translation": "मकान",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "world",
@@ -906,8 +807,7 @@
     "translation": "विश्व",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "could",
@@ -916,8 +816,7 @@
     "translation": "सकता है",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "catch",
@@ -926,8 +825,7 @@
     "translation": "पकड़",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "heard",
@@ -936,8 +834,7 @@
     "translation": "हर्ड",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "asked",
@@ -946,8 +843,7 @@
     "translation": "पूछा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "sleep",
@@ -956,8 +852,7 @@
     "translation": "नींद",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "build",
@@ -966,8 +861,7 @@
     "translation": "निर्माण",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "built",
@@ -976,8 +870,7 @@
     "translation": "बनाया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "sorry",
@@ -986,8 +879,7 @@
     "translation": "माफ़ करना",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "Small",
@@ -996,8 +888,7 @@
     "translation": "छोटा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "again",
@@ -1006,8 +897,7 @@
     "translation": "फिर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "never",
@@ -1016,8 +906,7 @@
     "translation": "कभी नहीँ",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "about",
@@ -1026,18 +915,7 @@
     "translation": "के बारे में",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
-  },
-  {
-    "word": "shook",
-    "target": "",
-    "part": "",
-    "translation": "",
-    "start": "",
-    "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "their",
@@ -1046,8 +924,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "there",
@@ -1056,8 +933,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 5
+    "text": ""
   },
   {
     "word": "gentle",
@@ -1066,8 +942,7 @@
     "translation": "सज्जन",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "sneeze",
@@ -1076,8 +951,7 @@
     "translation": "छींक",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "tailor",
@@ -1086,8 +960,7 @@
     "translation": "दर्जी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "temple",
@@ -1096,8 +969,7 @@
     "translation": "मंदिर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "anyone",
@@ -1106,8 +978,7 @@
     "translation": "किसी को",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "people",
@@ -1116,8 +987,7 @@
     "translation": "लोग",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "caught",
@@ -1126,8 +996,7 @@
     "translation": "पकड़े गए",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "opened",
@@ -1136,8 +1005,7 @@
     "translation": "खुल गया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "stayed",
@@ -1146,8 +1014,7 @@
     "translation": "रुके",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "behind",
@@ -1156,8 +1023,7 @@
     "translation": "पीछे",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "around",
@@ -1166,18 +1032,7 @@
     "translation": "चारों ओर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
-  },
-  {
-    "word": "bright",
-    "target": "",
-    "part": "",
-    "translation": "",
-    "start": "",
-    "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "flower",
@@ -1186,8 +1041,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "seller",
@@ -1196,8 +1050,7 @@
     "translation": "",
     "start": "",
     "end": "",
-    "text": "",
-    "": 6
+    "text": ""
   },
   {
     "word": "milkman",
@@ -1206,8 +1059,7 @@
     "translation": "दूधवाला",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "bananas",
@@ -1216,8 +1068,7 @@
     "translation": "केले",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "Pachaak",
@@ -1226,8 +1077,7 @@
     "translation": "Pachaak",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "Damaaal",
@@ -1236,8 +1086,7 @@
     "translation": "Damaaal",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "friends",
@@ -1246,8 +1095,7 @@
     "translation": "दोस्त",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "village",
@@ -1256,8 +1104,7 @@
     "translation": "गाँव",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "morning",
@@ -1266,8 +1113,7 @@
     "translation": "सुबह",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "falling",
@@ -1276,8 +1122,7 @@
     "translation": "गिर रहा है",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "biggest",
@@ -1286,8 +1131,7 @@
     "translation": "सबसे बड़ी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 7
+    "text": ""
   },
   {
     "word": "Gajapati",
@@ -1296,8 +1140,7 @@
     "translation": "गजपति",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "Kulapati",
@@ -1306,8 +1149,7 @@
     "translation": "Kulapati",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "Hooooosh",
@@ -1316,8 +1158,7 @@
     "translation": "Hooooosh",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "elephant",
@@ -1326,8 +1167,7 @@
     "translation": "हाथी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "everyone",
@@ -1336,8 +1176,7 @@
     "translation": "हर कोई",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "happiest",
@@ -1346,18 +1185,7 @@
     "translation": "सबसे खुशी",
     "start": "",
     "end": "",
-    "text": "",
-    "": 8
-  },
-  {
-    "word": "gathered",
-    "target": "",
-    "part": "",
-    "translation": "",
-    "start": "",
-    "end": "",
-    "text": "",
-    "": 8
+    "text": ""
   },
   {
     "word": "Everybody",
@@ -1366,8 +1194,7 @@
     "translation": "हर",
     "start": "",
     "end": "",
-    "text": "",
-    "": 9
+    "text": ""
   },
   {
     "word": "disappeared",
@@ -1376,18 +1203,7 @@
     "translation": "गायब हो गया",
     "start": "",
     "end": "",
-    "text": "",
-    "": 11
-  },
-  {
-    "word": "Rajagopalan",
-    "target": 2,
-    "part": "n",
-    "translation": "राजगोपालन",
-    "start": "",
-    "end": "",
-    "text": "",
-    "": 11
+    "text": ""
   },
   {
     "word": "grandmother",
@@ -1396,8 +1212,7 @@
     "translation": "दादी मा",
     "start": "",
     "end": "",
-    "text": "",
-    "": 11
+    "text": ""
   },
   {
     "word": "flower-seller",
@@ -1406,8 +1221,7 @@
     "translation": "फूल विक्रेता",
     "start": "",
     "end": "",
-    "text": "",
-    "": 13
+    "text": ""
   },
   {
     "word": "banana-seller",
@@ -1416,8 +1230,7 @@
     "translation": "केले विक्रेता",
     "start": 56,
     "end": 63,
-    "text": "<span>The</span> <span>banana-seller</span> <span>brought</span> <span>some</span> <span>bananas</span> <span>for</span> <span>Gajapati</span> <span>Kulapati.",
-    "": ""
+    "text": "<span>The</span> <span>banana-seller</span> <span>brought</span> <span>some</span> <span>bananas</span> <span>for</span> <span>Gajapati</span> <span>Kulapati."
   },
   {
     "word": "postman",
@@ -1426,8 +1239,7 @@
     "translation": "डाकिया",
     "start": 80,
     "end": 86,
-    "text": "<span>Bananas</span> <span>fell</span> <span>on</span> <span>the</span> <span>postman's</span> <span>head.",
-    "": ""
+    "text": "<span>Bananas</span> <span>fell</span> <span>on</span> <span>the</span> <span>postman's</span> <span>head."
   },
   {
     "word": "thunder",
@@ -1436,8 +1248,7 @@
     "translation": "बिजली",
     "start": 230,
     "end": 233,
-    "text": "<span>The</span> <span>thunder</span> <span>was</span> <span>loud.",
-    "": ""
+    "text": "<span>The</span> <span>thunder</span> <span>was</span> <span>loud."
   },
   {
     "word": "pat",
@@ -1446,8 +1257,7 @@
     "translation": "थपथपाना",
     "start": 276,
     "end": 281,
-    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.",
-    "": ""
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant."
   },
   {
     "word": "rained",
@@ -1456,8 +1266,7 @@
     "translation": "बारिश",
     "start": 24,
     "end": 30,
-    "text": "<span>One</span> <span>night</span> <span>it</span> <span>rained</span> <span>and</span> <span>Gajapati</span> <span>Kulapati</span> <span>got</span> <span>wet.",
-    "": ""
+    "text": "<span>One</span> <span>night</span> <span>it</span> <span>rained</span> <span>and</span> <span>Gajapati</span> <span>Kulapati</span> <span>got</span> <span>wet."
   },
   {
     "word": "hid",
@@ -1466,8 +1275,7 @@
     "translation": "hid",
     "start": 158,
     "end": 163,
-    "text": "<span>Gajapati</span> <span>Kulapati</span> <span>hid</span> <span>behind</span> <span>the</span> <span>temple</span> <span>wall.",
-    "": ""
+    "text": "<span>Gajapati</span> <span>Kulapati</span> <span>hid</span> <span>behind</span> <span>the</span> <span>temple</span> <span>wall."
   },
   {
     "word": "shouted",
@@ -1476,8 +1284,7 @@
     "translation": "चिल्लाया",
     "start": 207,
     "end": 212,
-    "text": "<span>I</span> <span>KNOW</span> <span>Gajapati</span> <span>Kulapati</span> <span>has</span> <span>a</span> <span>cold</span>!\" <span>shouted</span> <span>the</span> <span>postman.",
-    "": ""
+    "text": "<span>I</span> <span>KNOW</span> <span>Gajapati</span> <span>Kulapati</span> <span>has</span> <span>a</span> <span>cold</span>!\" <span>shouted</span> <span>the</span> <span>postman."
   },
   {
     "word": "shook",
@@ -1486,8 +1293,7 @@
     "translation": "हिलाकर रख दिया",
     "start": 256,
     "end": 262,
-    "text": "<span>Everyone</span> <span>shook</span> <span>their</span> <span>heads</span> <span>and</span> <span>went</span> <span>back</span> <span>to</span> <span>sleep.",
-    "": ""
+    "text": "<span>Everyone</span> <span>shook</span> <span>their</span> <span>heads</span> <span>and</span> <span>went</span> <span>back</span> <span>to</span> <span>sleep."
   },
   {
     "word": "gathered",
@@ -1496,8 +1302,7 @@
     "translation": "इकट्ठा",
     "start": 276,
     "end": 281,
-    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant.",
-    "": "Everyone gathered around to pat him."
+    "text": "<span>Everyone</span> <span>gathered</span> <span>around</span> <span>to</span> <span>pat</span> <span>the</span> <span>elephant."
   },
   {
     "word": "bright",
@@ -1506,8 +1311,7 @@
     "translation": "उज्ज्वल",
     "start": 271,
     "end": 276,
-    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.",
-    "": ""
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful."
   },
   {
     "word": "cheerful",
@@ -1516,8 +1320,7 @@
     "translation": "हंसमुख",
     "start": 271,
     "end": 276,
-    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful.",
-    "": ""
+    "text": "<span>Next</span> <span>morning</span> <span>the</span> <span>elephant</span> <span>came</span> <span>out</span> <span>bright</span> <span>and</span> <span>cheerful."
   },
   {
     "word": "louder",
@@ -1526,8 +1329,7 @@
     "translation": "जोर",
     "start": 215,
     "end": 219,
-    "text": "<span>That</span> <span>night</span> <span>a</span> <span>sound</span> <span>woke</span> <span>everyone</span> <span>up.</span> <span>It</span> <span>got</span> <span>louder</span> <span>and</span> <span>louder.",
-    "": ""
+    "text": "<span>That</span> <span>night</span> <span>a</span> <span>sound</span> <span>woke</span> <span>everyone</span> <span>up.</span> <span>It</span> <span>got</span> <span>louder</span> <span>and</span> <span>louder."
   },
   {
     "word": "cold",
@@ -1536,7 +1338,6 @@
     "translation": "सर्दी",
     "start": 240,
     "end": 245,
-    "text": "<span>The</span> <span>elephant</span> <span>has</span> <span>a</span> <span>cold.",
-    "": ""
+    "text": "<span>The</span> <span>elephant</span> <span>has</span> <span>a</span> <span>cold."
   }
 ]
